@@ -379,6 +379,7 @@
     <h2>FAQ</h2>
     <div class="head-line light"></div>
     <div class="faq-inner">
+        <?php echo get_locale(); ?>
         <?php echo do_shortcode("[accordions id='116']"); ?>
         <div class="ask">
             <div class="ask-info"><?php _e('Все равно ничего не поняли? Отправьте любой интересующий вас вопрос и мы ответим Вам в самое кратчайшее время.', 'owletex-landing') ?></div>

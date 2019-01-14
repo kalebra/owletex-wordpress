@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8318e0e7-e655-4a0f-ae02-7b84257ad7a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle" beforeDir="false" afterPath="$PROJECT_DIR$/owle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/owle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle/functions.php" afterDir="false" />
@@ -15,7 +13,7 @@
       <change beforePath="$PROJECT_DIR$/owle/languages/en_GB.po" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/fr_FR.mo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/fr_FR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/languages/owletex-landing.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/languages/owletex-landing.pot" beforeDir="false" afterPath="$PROJECT_DIR$/owle/languages/owletex-landing.pot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/slick/slick.less" beforeDir="false" afterPath="$PROJECT_DIR$/owle/slick/slick.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/owle/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owle/style/style.css.map" afterDir="false" />
@@ -67,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+            <state relative-caret-position="757">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../plugins/polylang-theme-strings/mw-polylang-theme-strings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="96" column="61" lean-forward="true" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -129,6 +136,7 @@
         <option value="$PROJECT_DIR$/../../wp-includes/formatting.php" />
         <option value="$PROJECT_DIR$/../../.htaccess" />
         <option value="$PROJECT_DIR$/owle/functions.php" />
+        <option value="$PROJECT_DIR$/../plugins/polylang-theme-strings/mw-polylang-theme-strings.php" />
       </list>
     </option>
   </component>
@@ -206,18 +214,17 @@
       <workItem from="1547462375972" duration="4585000" />
       <workItem from="1547473534231" duration="1359000" />
       <workItem from="1547474928204" duration="4639000" />
-      <workItem from="1547481200834" duration="1441000" />
+      <workItem from="1547481200834" duration="2208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13100000" />
+    <option name="totallyTimeSpent" value="13867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,7 +237,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,8 +335,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/owle/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        <state relative-caret-position="757">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../plugins/polylang-theme-strings/mw-polylang-theme-strings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="96" column="61" lean-forward="true" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="61" />
         </state>
       </provider>
     </entry>
