@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8318e0e7-e655-4a0f-ae02-7b84257ad7a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle" beforeDir="false" afterPath="$PROJECT_DIR$/owle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/owle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle/index.php" afterDir="false" />
@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/owle/languages/fr_FR.mo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/fr_FR.po" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/owletex-landing.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.less" beforeDir="false" afterPath="$PROJECT_DIR$/owle/slick/slick.less" afterDir="false" />
     </list>
     <ignored path="twentynineteen/" />
     <ignored path="twentyseventeen/" />
@@ -32,6 +33,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="460" column="10" lean-forward="true" selection-start-line="460" selection-start-column="10" selection-end-line="460" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle/style/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-741" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/owle/slick/slick.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="923">
@@ -40,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2903">
-              <caret line="272" column="58" selection-start-line="272" selection-start-column="58" selection-end-line="272" selection-end-column="58" />
+            <state relative-caret-position="475">
+              <caret line="296" column="22" lean-forward="true" selection-end-line="469" />
             </state>
           </provider>
         </entry>
@@ -61,13 +87,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get_theme_mod(</find>
+      <find>_e(</find>
     </findStrings>
     <replaceStrings>
       <replace>pll__(get_theme_mod(</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/owle" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,9 +103,10 @@
         <option value="$PROJECT_DIR$/owletex-child/functions.php" />
         <option value="$PROJECT_DIR$/owle-child/style.css" />
         <option value="$PROJECT_DIR$/owle-child/functions.php" />
-        <option value="$PROJECT_DIR$/owle/index.php" />
         <option value="$PROJECT_DIR$/owle/functions.php" />
         <option value="$PROJECT_DIR$/owle-child/index.php" />
+        <option value="$PROJECT_DIR$/owle/index.php" />
+        <option value="$PROJECT_DIR$/owle/slick/slick.less" />
       </list>
     </option>
   </component>
@@ -108,6 +136,18 @@
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="owle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="owle" type="462c0819:PsiDirectoryNode" />
+              <item name="slick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="owle" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,12 +195,12 @@
       <workItem from="1547310104881" duration="1076000" />
       <workItem from="1547462375972" duration="4585000" />
       <workItem from="1547473534231" duration="1359000" />
-      <workItem from="1547474928204" duration="3248000" />
+      <workItem from="1547474928204" duration="4581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10268000" />
+    <option name="totallyTimeSpent" value="11601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -229,16 +269,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/twentynineteen/js/priority-menu.js" />
-    <entry file="file://$PROJECT_DIR$/owle/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="96" column="36" lean-forward="true" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
-          <folding>
-            <element signature="e#6#44#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/owle/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="923">
@@ -248,8 +278,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2903">
-          <caret line="272" column="58" selection-start-line="272" selection-start-column="58" selection-end-line="272" selection-end-column="58" />
+        <state relative-caret-position="475">
+          <caret line="296" column="22" lean-forward="true" selection-end-line="469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="460" column="10" lean-forward="true" selection-start-line="460" selection-start-column="10" selection-end-line="460" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle/style/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle/slick/slick.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
         </state>
       </provider>
     </entry>
