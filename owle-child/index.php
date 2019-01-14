@@ -91,31 +91,31 @@
     </header>
 </div>
 <section class="advantages" id="adv">
-    <h2>Преимущества</h2>
+    <h2><?php _e('Преимущества', 'owletex-landing'); ?></h2>
     <div class="head-line"></div>
     <div class="adv-desc">
         <div class="adv-desc-inner">
             <div class="adv-desc-left">
                 <div>
                     <div id="b1" class="active">
-                        <h3><?php echo get_theme_mod( 'advantages-h3-1', 'Работа с ведущими биржами в одном окне' ); ?></h3>
-                        <p><?php echo get_theme_mod( 'advantages-p-1', 'Сервис позволяет работать одновременно с несколькими ведущими криптовалютными биржами. Вы можете подключить все свои аккаунты и производить торговые операции в одном интерфейсе как с каждой биржей в отдельности, так и производить трансфер активов между ними' ); ?></p>
+                        <h3><?php echo pll__(get_theme_mod( 'advantages-h3-1', 'Работа с ведущими биржами в одном окне' )); ?></h3>
+                        <p><?php echo pll__(get_theme_mod( 'advantages-p-1', 'Сервис позволяет работать одновременно с несколькими ведущими криптовалютными биржами. Вы можете подключить все свои аккаунты и производить торговые операции в одном интерфейсе как с каждой биржей в отдельности, так и производить трансфер активов между ними')); ?></p>
                     </div>
                     <div id="b2">
-                        <h3><?php echo get_theme_mod( 'advantages-h3-2', 'Возможность автоматизированной торговли (боты)' ); ?></h3>
-                        <p><?php echo get_theme_mod( 'advantages-p-2', 'С Owletex вы имеете возможность использования системы автоматизированной торговли, которая будет зарабатывать деньги без вашего непосредственного участия. Внутри сервиса вы можете создавать и настраивать неограниченное количество трейдинг-ботов, каждый из которых может реализовывать отдельные торговые стратегии для различных криптовалютных активов.' ); ?></p>
+                        <h3><?php echo pll__(get_theme_mod( 'advantages-h3-2', 'Возможность автоматизированной торговли (боты)' )); ?></h3>
+                        <p><?php echo pll__(get_theme_mod( 'advantages-p-2', 'С Owletex вы имеете возможность использования системы автоматизированной торговли, которая будет зарабатывать деньги без вашего непосредственного участия. Внутри сервиса вы можете создавать и настраивать неограниченное количество трейдинг-ботов, каждый из которых может реализовывать отдельные торговые стратегии для различных криптовалютных активов.')); ?></p>
                     </div>
                     <div id="b3">
-                        <h3><?php echo get_theme_mod( 'advantages-h3-3', 'Наличие демо-аккаунта' ); ?></h3>
-                        <p><?php echo get_theme_mod( 'advantages-p-3', 'Торговля криптовалютами - рискованное занятие, постоянно требующее держать обе руки на пульсе валютного рынка. Если вы не уверены в разрабатываемых стратегиях, вы можете протестировать их внутри нашего сервиса в тестовом режиме перед "боевым" запуском.' ); ?></p>
+                        <h3><?php echo pll__(get_theme_mod( 'advantages-h3-3', 'Наличие демо-аккаунта' )); ?></h3>
+                        <p><?php echo pll__(get_theme_mod( 'advantages-p-3', 'Торговля криптовалютами - рискованное занятие, постоянно требующее держать обе руки на пульсе валютного рынка. Если вы не уверены в разрабатываемых стратегиях, вы можете протестировать их внутри нашего сервиса в тестовом режиме перед "боевым" запуском.')); ?></p>
                     </div>
                     <div id="b4">
-                        <h3><?php echo get_theme_mod( 'advantages-h3-4', 'Сквозная аналитика портфеля' ); ?></h3>
-                        <p><?php echo get_theme_mod( 'advantages-p-4', 'С помощью гибких инструментов внутри сервиса вы сможете производить ежедневную аналитику вашего заработка, расходов и состояния портфеля. Также имеется возможность слежения за состоянием криптовалютного рынка в мире. С помощью несложных действий вы сможете производить пополнение балансов бирж, перераспределять активы и осуществлять ребалансировку вашего портфеля по каждой отдельной бирже.' ); ?></p>
+                        <h3><?php echo pll__(get_theme_mod( 'advantages-h3-4', 'Сквозная аналитика портфеля' )); ?></h3>
+                        <p><?php echo pll__(get_theme_mod( 'advantages-p-4', 'С помощью гибких инструментов внутри сервиса вы сможете производить ежедневную аналитику вашего заработка, расходов и состояния портфеля. Также имеется возможность слежения за состоянием криптовалютного рынка в мире. С помощью несложных действий вы сможете производить пополнение балансов бирж, перераспределять активы и осуществлять ребалансировку вашего портфеля по каждой отдельной бирже.' )); ?></p>
                     </div>
                     <div id="b5">
-                        <h3><?php echo get_theme_mod( 'advantages-h3-5', 'Быстрая техподдержка' ); ?></h3>
-                        <p><?php echo get_theme_mod( 'advantages-p-5', 'И, хотя система Owletex была разработана так, чтобы она была понятна даже для начинающего трейдера, мы понимаем, что в процессе работы могут возникать самые разнообразные вопросы касаемо самого сервиса и трейдинга с помощью него. Наша техподдержка готова оперативно помочь и ответить на любые интересующие вас вопросы.' ); ?></p>
+                        <h3><?php echo pll__(get_theme_mod( 'advantages-h3-5', 'Быстрая техподдержка' )); ?></h3>
+                        <p><?php echo pll__(get_theme_mod( 'advantages-p-5', 'И, хотя система Owletex была разработана так, чтобы она была понятна даже для начинающего трейдера, мы понимаем, что в процессе работы могут возникать самые разнообразные вопросы касаемо самого сервиса и трейдинга с помощью него. Наша техподдержка готова оперативно помочь и ответить на любые интересующие вас вопросы.' )); ?></p>
                     </div>
                 </div>
                 <div class="adv-bar">
@@ -185,12 +185,12 @@
 </section>
 <section class="exchanges" id="exc">
     <img src="<?php bloginfo('template_url'); ?>/img/exchanges-greed.svg" alt="exchanges-greed">
-    <h2>Биржи с которыми работает сервис</h2>
+    <h2><?php _e('Биржи с которыми работает сервис', 'owletex-landing') ?></h2>
     <div class="head-line light"></div>
     <div id="exchanges-anim"></div>
 </section>
 <section class="scheme-of-work" id="sch">
-    <h2>Схема работы</h2>
+    <h2><?php _e('Схема работы', 'owletex-landing') ?></h2>
     <div class="head-line"></div>
     <div class="main-content">
         <img src="<?php bloginfo('template_url'); ?>/img/scheme-greed.svg" alt="scheme-greed">
@@ -199,40 +199,40 @@
         </div>
         <div class="scheme-steps">
             <ol>
-                <li><?php echo get_theme_mod( 'scheme-li-1', 'Регистрируйтесь' ); ?></li>
-                <p><?php echo get_theme_mod( 'scheme-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
-                <li><?php echo get_theme_mod( 'scheme-li-2', 'Подключаете биржи' ); ?></li>
-                <p><?php echo get_theme_mod( 'scheme-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
-                <li><?php echo get_theme_mod( 'scheme-li-3', 'Выбираете тариф' ); ?></li>
-                <p><?php echo get_theme_mod( 'scheme-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
-                <li><?php echo get_theme_mod( 'scheme-li-4', 'Работаете с сервисом' ); ?></li>
-                <p><?php echo get_theme_mod( 'scheme-p-4', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
-                <li><?php echo get_theme_mod( 'scheme-li-5', 'Получаете профит' ); ?></li>
-                <p><?php echo get_theme_mod( 'scheme-p-5', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-1', 'Регистрируйтесь' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-2', 'Подключаете биржи' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-3', 'Выбираете тариф' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-4', 'Работаете с сервисом' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-4', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-5', 'Получаете профит' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-5', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
             </ol>
         </div>
     </div>
-    <div class="btn-reg">Зарегистрироваться</div>
+    <div class="btn-reg"><?php _e('Зарегистрироваться', 'owletex-landing') ?></div>
 </section>
 <section class="main-opportunities" id="opp">
-    <h2>Основные возможности</h2>
+    <h2><?php _e('Основные возможности', 'owletex-landing') ?></h2>
     <div class="head-line light"></div>
     <div class="main-content">
         <div class="opp-texts">
             <div class="opp-text">
-                <h3><?php echo get_theme_mod( 'features-h-1', 'Первая возможность' ); ?></h3>
-                <p><?php echo get_theme_mod( 'features-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
+                <h3><?php echo pll__(get_theme_mod( 'features-h-1', 'Первая возможность' )); ?></h3>
+                <p><?php echo pll__(get_theme_mod( 'features-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
             </div>
             <div class="opp-text">
-                <h3><?php echo get_theme_mod( 'features-h-2', 'Вторая возможность' ); ?></h3>
-                <p><?php echo get_theme_mod( 'features-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
+                <h3><?php echo pll__(get_theme_mod( 'features-h-2', 'Вторая возможность' )); ?></h3>
+                <p><?php echo pll__(get_theme_mod( 'features-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
             </div>
             <div class="opp-text">
-                <h3><?php echo get_theme_mod( 'features-h-3', 'Третья возможность' ); ?></h3>
-                <p><?php echo get_theme_mod( 'features-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></p>
+                <h3><?php echo pll__(get_theme_mod( 'features-h-3', 'Третья возможность' )); ?></h3>
+                <p><?php echo pll__(get_theme_mod( 'features-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
@@ -259,8 +259,8 @@
         <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
     </div>
     <div class="want-to-try">
-        <h2>Хотите попробовать в действии эти и другие возможности Owletex?</h2>
-        <div class="btn-reg">Зарегистрироваться</div>
+        <h2><?php _e('Хотите попробовать в действии эти и другие возможности Owletex?', 'owletex-landing') ?></h2>
+        <div class="btn-reg"><?php _e('Зарегистрироваться', 'owletex-landing') ?></div>
     </div>
 </section>
 <section class="tariffs" id="tar">
@@ -270,102 +270,102 @@
     <div class="cards-tariffs">
         <div class="card-tariffs">
             <div class="card-head">
-                <h3>Free</h3>
+                <h3><?php _e('Бесплатно', 'owletex-landing') ?></h3>
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
                 </div>
                 <div class="buy">
                     <div class="price">$0</div>
-                    <div class="btn-buy reg">Зарегистрироваться</div>
+                    <div class="btn-buy reg"><?php _e('Зарегистрироваться', 'owletex-landing') ?></div>
                 </div>
             </div>
         </div>
         <div class="card-tariffs best-choice">
             <div class="card-head">
-                <h3>Эксперт</h3>
+                <h3><?php _e('Эксперт', 'owletex-landing') ?></h3>
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
                 </div>
                 <div class="buy">
                     <div class="discount">$800</div>
                     <div class="price best">$500</div>
-                    <div class="btn-buy best">Купить</div>
+                    <div class="btn-buy best"><?php _e('Купить', 'owletex-landing') ?></div>
                 </div>
             </div>
         </div>
         <div class="card-tariffs">
             <div class="card-head">
-                <h3>Стандарт</h3>
+                <h3><?php _e('Стандарт', 'owletex-landing') ?></h3>
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
                 </div>
                 <div class="buy">
                     <div class="price">$500</div>
-                    <div class="btn-buy">Купить</div>
+                    <div class="btn-buy"><?php _e('Купить', 'owletex-landing') ?></div>
                 </div>
             </div>
         </div>
         <div class="card-tariffs">
             <div class="card-head">
-                <h3>Тариф 4</h3>
+                <h3><?php _e('Тариф 4', 'owletex-landing') ?></h3>
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
                 </div>
                 <div class="buy">
                     <div class="price">$500</div>
-                    <div class="btn-buy">Купить</div>
+                    <div class="btn-buy"><?php _e('Купить', 'owletex-landing') ?></div>
                 </div>
             </div>
         </div>
         <div class="card-tariffs">
             <div class="card-head">
-                <h3>Free</h3>
+                <h3><?php _e('Бесплатно', 'owletex-landing') ?></h3>
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
                 </div>
                 <div class="buy">
                     <div class="price">$0</div>
-                    <div class="btn-buy reg">Зарегистрироваться</div>
+                    <div class="btn-buy reg"><?php _e('Зарегистрироваться', 'owletex-landing') ?></div>
                 </div>
             </div>
         </div>
         <div class="card-tariffs">
             <div class="card-head">
-                <h3>Free</h3>
+                <h3><?php _e('Бесплатно', 'owletex-landing') ?></h3>
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp">Преимущество</div>
-                    <div class="opp">Преимущество</div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
                 </div>
                 <div class="buy">
                     <div class="price">$0</div>
-                    <div class="btn-buy reg">Зарегистрироваться</div>
+                    <div class="btn-buy reg"><?php _e('Зарегистрироваться', 'owletex-landing') ?></div>
                 </div>
             </div>
         </div>
     </div>
-    <h2>Способы оплаты</h2>
+    <h2><?php _e('Способы оплаты', 'owletex-landing') ?></h2>
     <div class="methods">
         <img src="<?php bloginfo('template_url'); ?>/img/payment-methods/bitcoin.png" alt="Bitcoin">
         <img src="<?php bloginfo('template_url'); ?>/img/payment-methods/visa.png" alt="Visa">
@@ -381,16 +381,16 @@
     <div class="faq-inner">
         <?php echo do_shortcode("[accordions id='116']"); ?>
         <div class="ask">
-            <div class="ask-info">Все равно ничего не поняли? Отправьте любой интересующий вас вопрос и мы ответим Вам в самое кратчайшее время.</div>
+            <div class="ask-info"><?php _e('Все равно ничего не поняли? Отправьте любой интересующий вас вопрос и мы ответим Вам в самое кратчайшее время.', 'owletex-landing') ?></div>
             <div class="ask-form">
-                <div class="ask-form-head">Форма обратной связи</div>
+                <div class="ask-form-head"><?php _e('Форма обратной связи', 'owletex-landing') ?></div>
                 <div class="ask-from-body">
                     <input type="text" placeholder="Имя" name="name" id="name">
                     <input type="text" placeholder="Email" name="name" id="email">
-                    <textarea name="question" id="question" cols="30" rows="10" placeholder="Вопрос"></textarea>
+                    <textarea name="question" id="question" cols="30" rows="10" placeholder="<?php _e('Вопрос', 'owletex-landing') ?>"></textarea>
                     <div class="ask-send">
                         <div class="captcha"></div>
-                        <button type="submit">Отправить</button>
+                        <button type="submit"><?php _e('Отправить', 'owletex-landing') ?></button>
                     </div>
                 </div>
             </div>
@@ -398,7 +398,7 @@
     </div>
 </section>
 <section class="news" id="new">
-    <h2>Новости</h2>
+    <h2><?php _e('Новости', 'owletex-landing') ?></h2>
     <div class="head-line"></div>
     <div class="news-cards">
         <?php
@@ -415,10 +415,10 @@
             endwhile;
         ?>
     </div>
-    <div class="btn-all-news">Все новости</div>
+    <div class="btn-all-news"><?php _e('Все новости', 'owletex-landing') ?></div>
 </section>
 <section class="partners" id="par">
-    <h2>Партнёры</h2>
+    <h2><?php _e('Партнёры', 'owletex-landing') ?></h2>
     <div class="partners-logos">
         <div class="partners-logo">
             <img src="<?php bloginfo('template_url'); ?>/img/partners/neuronx.io.png" alt="Neurox.io">
@@ -438,30 +438,30 @@
     <div class="main-content">
         <div class="company-info">
             <a href="/" class="logo"></a>
-            <div>Юридические данные: ООО “Текст-Рыба”</div>
-            <div>Юридический адрес: Юр. адрес: 101000 г. Москва, Чистопрудный б-р, д.11, стр.1</div>
-            <div>УНП компании:</div>
+            <div><?php _e('Юридические данные', 'owletex-landing') ?>: ООО “Текст-Рыба”</div>
+            <div><?php _e('Юридический адрес', 'owletex-landing') ?>: Юр. адрес: 101000 г. Москва, Чистопрудный б-р, д.11, стр.1</div>
+            <div><?php _e('УНП компании', 'owletex-landing') ?>:</div>
         </div>
         <div class="menu">
-            <div class="menu-head">Меню</div>
-            <a href="/">Новости</a>
-            <a href="/">Войти</a>
-            <a href="/">Зарегистрироваться</a>
+            <div class="menu-head"><?php _e('Меню', 'owletex-landing') ?></div>
+            <a href="/"><?php _e('Новости', 'owletex-landing') ?></a>
+            <a href="/"><?php _e('Войти', 'owletex-landing') ?></a>
+            <a href="/"><?php _e('Зарегистрироваться', 'owletex-landing') ?></a>
         </div>
         <div class="subscribe">
-            <div class="menu-head">Подпишись на нас</div>
+            <div class="menu-head"><?php _e('Подпишись на нас', 'owletex-landing') ?></div>
             <div>
-                <div>Получай последние новости об обновлениях сервиса.</div>
+                <div><?php _e('Получай последние новости об обновлениях сервиса.', 'owletex-landing') ?></div>
                 <div>
                     <input type="text" placeholder="Email">
-                    <input type="button" value="Подписаться">
+                    <input type="button" value="<?php _e('Подписаться', 'owletex-landing') ?>">
                 </div>
             </div>
         </div>
     </div>
     <div class="copyrights">
-        <div class="copyrights-text"><?php echo get_theme_mod( 'footer-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' ); ?></div>
-        <div class="copyright"><?php echo get_theme_mod( 'footer-2', '@2018 Owletex. Все права защищены' ); ?></div>
+        <div class="copyrights-text"><?php echo pll__(get_theme_mod( 'footer-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></div>
+        <div class="copyright"><?php echo pll__(get_theme_mod( 'footer-2', '@2018 Owletex. Все права защищены' )); ?></div>
     </div>
 </footer>
 <?php wp_footer() ?>
