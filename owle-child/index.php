@@ -54,7 +54,7 @@
                     <a href="#par"><?php _e('Партнеры', 'owletex-landing'); ?></a>
                     <a href="/"><?php _e('Войти', 'owletex-landing'); ?></a>
                     <div>
-                        <a href="/" class="sign-up"><?php _e('Войти', 'owletex-landing'); ?></a>
+                        <a href="/" class="sign-up"><?php _e('Зарегистрироваться', 'owletex-landing'); ?></a>
                         <div class="dropdown-language">
                             <div class="dropdown-active">
                                 En
@@ -379,8 +379,22 @@
     <h2>FAQ</h2>
     <div class="head-line light"></div>
     <div class="faq-inner">
-        <?php echo get_locale(); ?>
-        <?php echo do_shortcode("[accordions id='116']"); ?>
+        <?php
+            switch (get_locale()) {
+                case 'ru_RU':
+                    echo do_shortcode("[accordions id='116']");
+                    break;
+                case 'en_GB':
+                    echo do_shortcode("[accordions id='206']");
+                    break;
+                case 'fr_FR':
+                    echo "3";
+                    break;
+                case 'de_DE':
+                    echo "4";
+                    break;
+            }
+        ?>
         <div class="ask">
             <div class="ask-info"><?php _e('Все равно ничего не поняли? Отправьте любой интересующий вас вопрос и мы ответим Вам в самое кратчайшее время.', 'owletex-landing') ?></div>
             <div class="ask-form">

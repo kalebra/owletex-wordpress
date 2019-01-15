@@ -1,13 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: HP
- * Date: 14.01.2019
- * Time: 13:27
- */
 
-
-    add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
     function my_theme_enqueue_styles() {
         wp_enqueue_style('parent-reset', get_template_directory_uri() . '/style/reset.css', false, time() );
         wp_enqueue_style('parent-fonts-ttcommons', get_template_directory_uri() . '/fonts/TTCommons/stylesheet.css', false, time() );
@@ -26,4 +18,4 @@
         wp_enqueue_script('parent-slick', get_template_directory_uri() . '/slick/slick.js', 'jquery', null, true );
         wp_enqueue_script('parent-main', get_template_directory_uri() . '/js/main.js', array('jquery', 'lottie', 'slick'), null, true );
     }
-?>
+    add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
