@@ -7,9 +7,109 @@
       <change beforePath="$PROJECT_DIR$/owle-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/owle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-DemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-DemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-DemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-DemiBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-DemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-DemiBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ExtraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/fonts/roboto.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/owle/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/Dropdown/Button/Primary/Frame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/bar-chart-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/bar-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/cpu-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/cpu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/headphones-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/headphones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/monitor-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/monitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/user-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/icon/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/advantages/img/adv-example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/arrow-down-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/best-choice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/biggest-news-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/captcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/check-mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/chevron-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/delete/faq-greed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/header-sheet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/logo-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/opportunities-greed1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/opportunities-greed2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/opportunities-greed3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/opportunities/opportunity1-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/opportunities/opportunity2-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/opportunities/opportunity3-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/owl-animation/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/scheme-anim/icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/scheme-anim/icons_demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/slider-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/social-links/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/social-links/google-plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/social-links/linked-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/img/social-links/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/js/animation/advantages/02-sandbox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/js/animation/advantages/03-bot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/js/lottie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/js/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/de_DE.mo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/de_DE.po" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/en_GB.mo" beforeDir="false" />
@@ -17,10 +117,27 @@
       <change beforePath="$PROJECT_DIR$/owle/languages/fr_FR.mo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/fr_FR.po" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/languages/owletex-landing.pot" beforeDir="false" afterPath="$PROJECT_DIR$/owle/languages/owletex-landing.pot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/slick/slick.less" beforeDir="false" afterPath="$PROJECT_DIR$/owle/slick/slick.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/owle/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owle/style/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle/style/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/owle/style/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/style/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/style/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/style/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle/style/style.less" beforeDir="false" />
     </list>
     <ignored path="twentynineteen/" />
     <ignored path="twentyseventeen/" />
@@ -40,31 +157,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7486">
-              <caret line="396" column="10" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
+            <state relative-caret-position="-1316">
+              <caret line="204" column="57" selection-start-line="204" selection-start-column="57" selection-end-line="204" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="858" column="15" lean-forward="true" selection-start-line="858" selection-start-column="15" selection-end-line="858" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/owle/style/style.less">
+        <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="1843" column="4" selection-start-line="1843" selection-start-column="4" selection-end-line="1843" selection-end-column="4" />
+            <state relative-caret-position="247">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/owle/img/arrow-down.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/owle-child/style.css">
+        <entry file="file://$PROJECT_DIR$/owle-child/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="684">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -84,6 +205,15 @@
       <find>_e(</find>
       <find>child-theme-name</find>
       <find>owletex-child</find>
+      <find>//</find>
+      <find>.news-card</find>
+      <find>slick-slide</find>
+      <find>.slick-slide</find>
+      <find>top-line</find>
+      <find>img</find>
+      <find>opp-imgs-mobile</find>
+      <find>acco</find>
+      <find>faq</find>
     </findStrings>
     <replaceStrings>
       <replace>pll__(get_theme_mod(</replace>
@@ -92,7 +222,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/owle" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,11 +234,14 @@
         <option value="$PROJECT_DIR$/../../wp-includes/formatting.php" />
         <option value="$PROJECT_DIR$/../../.htaccess" />
         <option value="$PROJECT_DIR$/../plugins/polylang-theme-strings/mw-polylang-theme-strings.php" />
+        <option value="$PROJECT_DIR$/owle/style/style.less" />
+        <option value="$PROJECT_DIR$/owle/js/main.js" />
         <option value="$PROJECT_DIR$/owle/index.php" />
         <option value="$PROJECT_DIR$/owle/functions.php" />
         <option value="$PROJECT_DIR$/owle-child/functions.php" />
         <option value="$PROJECT_DIR$/owle-child/index.php" />
-        <option value="$PROJECT_DIR$/owle/style/style.less" />
+        <option value="$PROJECT_DIR$/owle-child/style/style.less" />
+        <option value="$PROJECT_DIR$/owle-child/js/main.js" />
       </list>
     </option>
   </component>
@@ -137,19 +270,13 @@
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="owle" type="462c0819:PsiDirectoryNode" />
+              <item name="owle-child" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="owle" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="owle" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="owle-child" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,18 +329,24 @@
       <workItem from="1547486351498" duration="19000" />
       <workItem from="1547547328801" duration="18000" />
       <workItem from="1547548132324" duration="3229000" />
-      <workItem from="1547551846263" duration="1171000" />
+      <workItem from="1547551846263" duration="2176000" />
+      <workItem from="1547560519995" duration="7146000" />
+      <workItem from="1547717750755" duration="14106000" />
+      <workItem from="1547738964399" duration="2296000" />
+      <workItem from="1547806551943" duration="2564000" />
+      <workItem from="1547810250100" duration="3841000" />
+      <workItem from="1547816740255" duration="10073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18304000" />
+    <option name="totallyTimeSpent" value="59335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,7 +360,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,13 +395,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/twentynineteen/js/priority-menu.js" />
-    <entry file="file://$PROJECT_DIR$/owle/slick/slick.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/owle/slick/slick.less" />
     <entry file="file://$PROJECT_DIR$/../../wp-includes/formatting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79838">
@@ -290,34 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owle/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="60" column="64" lean-forward="true" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7486">
-          <caret line="396" column="10" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -325,13 +424,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owle/img/arrow-down.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle/style/style.less">
+    <entry file="file://$PROJECT_DIR$/owle/img/arrow-down.svg" />
+    <entry file="file://$PROJECT_DIR$/owle/style/style.css" />
+    <entry file="file://$PROJECT_DIR$/owle/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/owle/style/style.less" />
+    <entry file="file://$PROJECT_DIR$/owle/index.php" />
+    <entry file="file://$PROJECT_DIR$/owle/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="1843" column="4" selection-start-line="1843" selection-start-column="4" selection-end-line="1843" selection-end-column="4" />
+        <state relative-caret-position="475">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1316">
+          <caret line="204" column="57" selection-start-line="204" selection-start-column="57" selection-end-line="204" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="858" column="15" lean-forward="true" selection-start-line="858" selection-start-column="15" selection-end-line="858" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -12,7 +12,6 @@
     <script type="text/javascript">
         var templateUrl = '<?= get_bloginfo("template_url"); ?>';
     </script>
-    <?php wp_head() ?>
 </head>
 <body>
 <div class="top-line-wrapper">
@@ -148,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div class="adv-desc-right" id="adv-desc-right" data-aos="fade-left" data-aos-offset="300" data-aos-duration="700" data-aos-once="true">
+            <div class="adv-desc-right" id="adv-desc-right">
                 <div id="anim-1" class="active"></div>
                 <div id="anim-2"></div>
                 <div id="anim-3"></div>
@@ -201,16 +200,16 @@
         </div>
         <div class="scheme-steps">
             <ol>
-                <li data-aos="fade-in" data-aos-offset="350" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-li-1', 'Регистрируйтесь' )); ?></li>
-                <p data-aos="fade-in" data-aos-offset="350" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <li data-aos="fade-in" data-aos-offset="300" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-li-2', 'Подключаете биржи' )); ?></li>
-                <p data-aos="fade-in" data-aos-offset="300" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <li data-aos="fade-in" data-aos-offset="250" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-li-3', 'Выбираете тариф' )); ?></li>
-                <p data-aos="fade-in" data-aos-offset="250" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <li data-aos="fade-in" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-li-4', 'Работаете с сервисом' )); ?></li>
-                <p data-aos="fade-in" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-p-4', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <li data-aos="fade-in" data-aos-offset="150" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-li-5', 'Получаете профит' )); ?></li>
-                <p data-aos="fade-in" data-aos-offset="150" data-aos-duration="1000" data-aos-once="true"><?php echo pll__(get_theme_mod( 'scheme-p-5', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-1', 'Регистрируйтесь' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-2', 'Подключаете биржи' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-3', 'Выбираете тариф' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-4', 'Работаете с сервисом' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-4', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
+                <li><?php echo pll__(get_theme_mod( 'scheme-li-5', 'Получаете профит' )); ?></li>
+                <p><?php echo pll__(get_theme_mod( 'scheme-p-5', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
             </ol>
         </div>
     </div>
@@ -226,27 +225,15 @@
                 <p><?php echo pll__(get_theme_mod( 'features-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
             </div>
-            <div class="opp-imgs-mobile">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
-            </div>
             <div class="opp-text">
                 <h3><?php echo pll__(get_theme_mod( 'features-h-2', 'Вторая возможность' )); ?></h3>
                 <p><?php echo pll__(get_theme_mod( 'features-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
             </div>
-            <div class="opp-imgs-mobile">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
-            </div>
             <div class="opp-text">
                 <h3><?php echo pll__(get_theme_mod( 'features-h-3', 'Третья возможность' )); ?></h3>
                 <p><?php echo pll__(get_theme_mod( 'features-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
-            </div>
-            <div class="opp-imgs-mobile">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
@@ -282,7 +269,7 @@
     <h2><?php _e('Тарифы', 'owletex-landing'); ?></h2>
     <div class="head-line"></div>
     <div class="cards-tariffs">
-        <div class="card-tariffs" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="300" data-aos-once="true">
+        <div class="card-tariffs">
             <div class="card-head">
                 <h3><?php _e('Бесплатно', 'owletex-landing') ?></h3>
             </div>
@@ -297,7 +284,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-tariffs best-choice" data-aos="fade-down" data-aos-delay="600" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="400"  data-aos-once="true">
+        <div class="card-tariffs best-choice">
             <div class="card-head">
                 <h3><?php _e('Эксперт', 'owletex-landing') ?></h3>
             </div>
@@ -316,7 +303,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-tariffs" data-aos="fade-down" data-aos-delay="1200" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="300" data-aos-once="true">
+        <div class="card-tariffs">
             <div class="card-head">
                 <h3><?php _e('Стандарт', 'owletex-landing') ?></h3>
             </div>
@@ -332,7 +319,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-tariffs" data-aos="fade-down" data-aos-delay="1800" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="300" data-aos-once="true">
+        <div class="card-tariffs">
             <div class="card-head">
                 <h3><?php _e('Тариф 4', 'owletex-landing') ?></h3>
             </div>
@@ -393,25 +380,8 @@
     <h2>FAQ</h2>
     <div class="head-line light"></div>
     <div class="faq-inner">
-        <?php
-            switch (get_locale()) {
-                case 'ru_RU':
-                    //echo do_shortcode("[WPSM_AC id=211]");
-
-                    echo do_shortcode("[accordions id='116']");
-                    break;
-                case 'en_GB':
-                    echo do_shortcode("[accordions id='206']");
-                    break;
-                case 'fr_FR':
-                    echo "3";
-                    break;
-                case 'de_DE':
-                    echo "4";
-                    break;
-            }
-        ?>
-        <div class="ask" data-aos="fade-left" data-aos-offset="300" data-aos-duration="700" data-aos-once="true">
+        <?php echo do_shortcode("[accordions id='116']"); ?>
+        <div class="ask">
             <div class="ask-info"><?php _e('Все равно ничего не поняли? Отправьте любой интересующий вас вопрос и мы ответим Вам в самое кратчайшее время.', 'owletex-landing') ?></div>
             <div class="ask-form">
                 <div class="ask-form-head"><?php _e('Форма обратной связи', 'owletex-landing') ?></div>
@@ -433,17 +403,17 @@
     <div class="head-line"></div>
     <div class="news-cards">
         <?php
-            while( have_posts() ) : the_post();
-        ?>
-                <div class="news-card">
-                    <div class="card-head"><?php echo get_the_post_thumbnail(); ?></div>
-                    <div class="card-body">
-                        <div class="news-header"><?php the_title(); ?></div>
-                        <div class="news-content"><?php the_content(); ?></div>
-                    </div>
+        while( have_posts() ) : the_post();
+            ?>
+            <div class="news-card">
+                <div class="card-head"><?php echo get_the_post_thumbnail(); ?></div>
+                <div class="card-body">
+                    <div class="news-header"><?php the_title(); ?></div>
+                    <div class="news-content"><?php the_content(); ?></div>
                 </div>
+            </div>
         <?php
-            endwhile;
+        endwhile;
         ?>
     </div>
     <div class="btn-all-news"><?php _e('Все новости', 'owletex-landing') ?></div>
@@ -495,6 +465,5 @@
         <div class="copyright"><?php echo pll__(get_theme_mod( 'footer-2', '@2018 Owletex. Все права защищены' )); ?></div>
     </div>
 </footer>
-<?php wp_footer() ?>
 </body>
 </html>
