@@ -1,23 +1,6 @@
 AOS.init();
 
 jQuery(document).ready(function($) {
-    $('.accordions-head').unbind('click');
-    $('.accordions-head').click(function() {
-        $('.accordion-content').slideUp().removeClass('opened');
-        if ($(this).next().css("display") != 'block') {
-            $(this).next().slideDown().addClass('opened');
-        };
-    });
-
-    document.addEventListener('aos:in', ({ detail }) => {
-        console.log('animated in', detail);
-    });
-
-    $('.card-tariffs').mouseout(function() {
-
-        $(this).css('transition-delay', '0s', 'important');
-    });
-
     //анимация меню хедера
     var scrollTop = $(window).scrollTop();
     if (scrollTop > 1) {
@@ -80,7 +63,7 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    //блок преимуществ - подключений анимаций
+    //блок преимуществ - подключение анимаций
     var anim1 = lottie.loadAnimation({
         container: document.getElementById('anim-1'),
         renderer: 'svg',
@@ -121,102 +104,99 @@ jQuery(document).ready(function($) {
         path: templateUrl + '/js/animation/advantages/05-support.json'
     });
 
-    $('.advantages h2').click(function() {
-        $('.adv-desc-right #anim-1').fadeToggle('slow');
-    });
-
     //блок преимуществ - клик по кнопке
     $(".advantage").click(function() {
+        //проверка нажатия по уже нажатой кнопке
         if (!$(this).hasClass("active")) {
             $(".advantage").removeClass("active");
             $(this).addClass("active");
         }
+
         switch($(this).attr('id')) {
-        case 'a1':
-        case 'a11':
-            $.when( $('.adv-desc-left > div:first-child > div.active').fadeOut(200) ).then(function() {
-                $('.adv-desc-left > div:first-child > div.active').removeClass('active');
-                $('.adv-desc-left > div:first-child > div#b1').fadeIn(1).addClass('active');
-            });
-            $.when( $('.adv-desc-right > div.active').fadeOut().removeClass('active') ).then(function(){
-                $.when($('.adv-desc-right #anim-1').fadeIn().addClass('active')).then(function() {
-                    anim1.play();
-                    anim2.stop();
-                    anim3.stop();
-                    anim4.stop();
-                    anim5.stop();
-                });
-            });
-        break;
+            case 'a1':
+            case 'a11':
+                $('.adv-desc-left > div:first-child > div').stop();
+                $('.adv-desc-left > div:first-child > div').fadeOut();
+                $('.adv-desc-left > div:first-child > div#b1').fadeIn();
 
-        case 'a2':
-        case 'a22':
-            $.when( $('.adv-desc-left > div:first-child > div.active').fadeOut(200) ).then(function() {
-                $('.adv-desc-left > div:first-child > div.active').removeClass('active');
-                $('.adv-desc-left > div:first-child > div#b2').fadeIn(1).addClass('active');
-            });
+                $('.adv-desc-right > div').stop();
+                $('.adv-desc-right > div').fadeOut();
+                $('.adv-desc-right #anim-1').fadeIn();
 
-            $.when( $('.adv-desc-right > div.active').fadeOut().removeClass('active') ).then(function(){
-                $.when($('.adv-desc-right #anim-2').fadeIn().addClass('active')).then(function() {
-                    anim1.stop();
-                    anim2.play();
-                    anim3.stop();
-                    anim4.stop();
-                    anim5.stop();
-                });
-            });
-        break;
+                anim1.play();
+                anim2.stop();
+                anim3.stop();
+                anim4.stop();
+                anim5.stop();
+            break;
 
-        case 'a3':
-        case 'a33':
-            $.when( $('.adv-desc-left > div:first-child > div.active').fadeOut(200) ).then(function() {
-                $('.adv-desc-left > div:first-child > div.active').removeClass('active');
-                $('.adv-desc-left > div:first-child > div#b3').fadeIn(1).addClass('active');
-            });
-            $.when( $('.adv-desc-right > div.active').fadeOut().removeClass('active') ).then(function(){
-                $.when($('.adv-desc-right #anim-3').fadeIn().addClass('active')).then(function() {
-                    anim1.stop();
-                    anim2.stop();
-                    anim3.play();
-                    anim4.stop();
-                    anim5.stop();
-                });
-            });
-        break;
+            case 'a2':
+            case 'a22':
+                $('.adv-desc-left > div:first-child > div').stop();
+                $('.adv-desc-left > div:first-child > div').fadeOut();
+                $('.adv-desc-left > div:first-child > div#b2').fadeIn();
 
-        case 'a4':
-        case 'a44':
-            $.when( $('.adv-desc-left > div:first-child > div.active').fadeOut(200) ).then(function() {
-                $('.adv-desc-left > div:first-child > div.active').removeClass('active');
-                $('.adv-desc-left > div:first-child > div#b4').fadeIn(1).addClass('active');
-            });
-            $.when( $('.adv-desc-right > div.active').fadeOut().removeClass('active') ).then(function(){
-                $.when($('.adv-desc-right #anim-4').fadeIn().addClass('active')).then(function() {
-                    anim1.stop();
-                    anim2.stop();
-                    anim3.stop();
-                    anim4.play();
-                    anim5.stop();
-                });
-            });
-        break;
+                $('.adv-desc-right > div').stop();
+                $('.adv-desc-right > div').fadeOut();
+                $('.adv-desc-right #anim-2').fadeIn();
 
-        case 'a5':
-        case 'a55':
-            $.when( $('.adv-desc-left > div:first-child > div.active').fadeOut(200) ).then(function() {
-                $('.adv-desc-left > div:first-child > div.active').removeClass('active');
-                $('.adv-desc-left > div:first-child > div#b5').fadeIn(1).addClass('active');
-            });
-            $.when( $('.adv-desc-right > div.active').fadeOut().removeClass('active') ).then(function(){
-                $.when($('.adv-desc-right #anim-5').fadeIn().addClass('active')).then(function() {
-                        anim1.stop();
-                        anim2.stop();
-                        anim3.stop();
-                        anim4.stop();
-                        anim5.play();
-                });
-            });
-        break;
+                anim1.stop();
+                anim2.play();
+                anim3.stop();
+                anim4.stop();
+                anim5.stop();
+            break;
+
+            case 'a3':
+            case 'a33':
+                $('.adv-desc-left > div:first-child > div').stop();
+                $('.adv-desc-left > div:first-child > div').fadeOut();
+                $('.adv-desc-left > div:first-child > div#b3').fadeIn();
+
+                $('.adv-desc-right > div').stop();
+                $('.adv-desc-right > div').fadeOut();
+                $('.adv-desc-right #anim-3').fadeIn();
+
+                anim1.stop();
+                anim2.stop();
+                anim3.play();
+                anim4.stop();
+                anim5.stop();
+            break;
+
+            case 'a4':
+            case 'a44':
+                $('.adv-desc-left > div:first-child > div').stop();
+                $('.adv-desc-left > div:first-child > div').fadeOut();
+                $('.adv-desc-left > div:first-child > div#b4').fadeIn();
+
+                $('.adv-desc-right > div').stop();
+                $('.adv-desc-right > div').fadeOut();
+                $('.adv-desc-right #anim-4').fadeIn();
+
+                anim1.stop();
+                anim2.stop();
+                anim3.stop();
+                anim4.play();
+                anim5.stop();
+            break;
+
+            case 'a5':
+            case 'a55':
+                $('.adv-desc-left > div:first-child > div').stop();
+                $('.adv-desc-left > div:first-child > div').fadeOut();
+                $('.adv-desc-left > div:first-child > div#b5').fadeIn();
+
+                $('.adv-desc-right > div').stop();
+                $('.adv-desc-right > div').fadeOut();
+                $('.adv-desc-right #anim-5').fadeIn();
+
+                anim1.stop();
+                anim2.stop();
+                anim3.stop();
+                anim4.stop();
+                anim5.play();
+            break;
         }
     });
 
@@ -263,6 +243,15 @@ jQuery(document).ready(function($) {
         }
     });
 
+    //блок тарифов, анимация ховера
+    document.addEventListener('aos:in', ({ detail }) => {
+        if (detail.className.split(" ")[0] == 'card-tariffs') {
+            setTimeout(function() {
+                $('.card-tariffs').addClass('animated');
+            }, 2400);
+        }
+    });
+
     // блок тарифов, слайдер карточек
     $('.cards-tariffs').slick({
         infinite: true,
@@ -277,16 +266,12 @@ jQuery(document).ready(function($) {
     });
 
     //блок faq, клик по аккордиону
-    $(".quick-answers .question-head").click(function () {
-        if (!$(this).hasClass('active')) {
-            $(".quick-answers .question-head").removeClass('active');
-            $(".quick-answers .question-body").slideUp();
-            $(this).addClass('active');
-            $(this).next().slideDown();
-        } else {
-            $(".quick-answers .question-head").removeClass('active');
-            $(".quick-answers .question-body").slideUp();
-        }
+    $('.accordions-head').unbind('click');
+    $('.accordions-head').click(function() {
+        $('.accordion-content').slideUp().removeClass('opened');
+        if ($(this).next().css("display") != 'block') {
+            $(this).next().slideDown().addClass('opened');
+        };
     });
 
     //блок новостей, слайдер

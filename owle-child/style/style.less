@@ -442,6 +442,7 @@ nav {
       justify-content: space-between;
       margin-bottom: 8px;
       .adv-desc-left {
+        height: 394px;
         flex: 0 1 45%;
         display: flex;
         flex-direction: column;
@@ -449,11 +450,13 @@ nav {
         > div:first-child {
           > div {
             display: none;
-            opacity: 0;
-            transition: all 1s ease-in-out;
+            position: absolute;
+            width: 590px;
+            //opacity: 0;
+            //transition: all 1s ease-in-out;
             &.active {
               display: block;
-              opacity: 1;
+              //opacity: 1;
             }
             h3 {
               color: #38385F;
@@ -856,9 +859,13 @@ nav {
       //transition: transform .2s;
       //transition: opacity 1s cubic-bezier(.25,.25,.75,.75), transform 1s cubic-bezier(.25,.25,.75,.75);
       //transition-delay: 0s !important;
-      &:hover {
+      &.animated {
         transition-delay: 0s !important;
-        transform: scale(1.1);
+        transition-duration: .6s;
+        transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+        &:hover {
+          transform: scale(1.1);
+        }
       }
       .card-head {
         height: 92px;
@@ -949,7 +956,7 @@ nav {
       }
       &.best-choice {
         padding-top: 0;
-        &:hover {
+        &.animated:hover {
           transform: none;
         }
         .card-head {
@@ -1135,7 +1142,7 @@ nav {
     align-items: center;
     padding: 0 24px;
   }
-  .ask-from-body {
+  .ask-form-body form {
     display: flex;
     flex-direction: column;
     padding: 24px;
@@ -1162,13 +1169,13 @@ nav {
     }
     .ask-send {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       .captcha {
         width: 314px;
         height: 77px;
         background: url("../img/captcha.png") no-repeat;
       }
-      button[type="submit"] {
+      input[type="submit"] {
         width: 113px;
         height: 40px;
         cursor: pointer;

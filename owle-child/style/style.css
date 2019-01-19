@@ -420,6 +420,7 @@ nav .divider {
   margin-bottom: 8px;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left {
+  height: 394px;
   flex: 0 1 45%;
   display: flex;
   flex-direction: column;
@@ -427,12 +428,11 @@ nav .divider {
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child > div {
   display: none;
-  opacity: 0;
-  transition: all 1s ease-in-out;
+  position: absolute;
+  width: 590px;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child > div.active {
   display: block;
-  opacity: 1;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child > div h3 {
   color: #38385F;
@@ -820,8 +820,12 @@ nav .divider {
   margin-bottom: 20px;
   outline: none;
 }
-.tariffs .cards-tariffs .card-tariffs:hover {
+.tariffs .cards-tariffs .card-tariffs.animated {
   transition-delay: 0s !important;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+.tariffs .cards-tariffs .card-tariffs.animated:hover {
   transform: scale(1.1);
 }
 .tariffs .cards-tariffs .card-tariffs .card-head {
@@ -914,7 +918,7 @@ nav .divider {
 .tariffs .cards-tariffs .card-tariffs.best-choice {
   padding-top: 0;
 }
-.tariffs .cards-tariffs .card-tariffs.best-choice:hover {
+.tariffs .cards-tariffs .card-tariffs.best-choice.animated:hover {
   transform: none;
 }
 .tariffs .cards-tariffs .card-tariffs.best-choice .card-head {
@@ -1084,13 +1088,13 @@ nav .divider {
   align-items: center;
   padding: 0 24px;
 }
-.ask-form .ask-from-body {
+.ask-form .ask-form-body form {
   display: flex;
   flex-direction: column;
   padding: 24px;
 }
-.ask-form .ask-from-body input,
-.ask-form .ask-from-body textarea {
+.ask-form .ask-form-body form input,
+.ask-form .ask-form-body form textarea {
   height: 145px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
@@ -1100,28 +1104,28 @@ nav .divider {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
-.ask-form .ask-from-body input::placeholder,
-.ask-form .ask-from-body textarea::placeholder {
+.ask-form .ask-form-body form input::placeholder,
+.ask-form .ask-form-body form textarea::placeholder {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.25);
 }
-.ask-form .ask-from-body input {
+.ask-form .ask-form-body form input {
   height: 40px;
 }
-.ask-form .ask-from-body textarea {
+.ask-form .ask-form-body form textarea {
   padding-top: 10px;
 }
-.ask-form .ask-from-body .ask-send {
+.ask-form .ask-form-body form .ask-send {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
-.ask-form .ask-from-body .ask-send .captcha {
+.ask-form .ask-form-body form .ask-send .captcha {
   width: 314px;
   height: 77px;
   background: url("../img/captcha.png") no-repeat;
 }
-.ask-form .ask-from-body .ask-send button[type="submit"] {
+.ask-form .ask-form-body form .ask-send input[type="submit"] {
   width: 113px;
   height: 40px;
   cursor: pointer;

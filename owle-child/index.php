@@ -297,7 +297,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-tariffs best-choice" data-aos="fade-down" data-aos-delay="600" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="400"  data-aos-once="true">
+        <div class="card-tariffs best-choice" data-aos="fade-down" data-aos-delay="600" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="325"  data-aos-once="true">
             <div class="card-head">
                 <h3><?php _e('Эксперт', 'owletex-landing') ?></h3>
             </div>
@@ -415,14 +415,16 @@
             <div class="ask-info"><?php _e('Все равно ничего не поняли? Отправьте любой интересующий вас вопрос и мы ответим Вам в самое кратчайшее время.', 'owletex-landing') ?></div>
             <div class="ask-form">
                 <div class="ask-form-head"><?php _e('Форма обратной связи', 'owletex-landing') ?></div>
-                <div class="ask-from-body">
-                    <input type="text" placeholder="Имя" name="name" id="name">
-                    <input type="text" placeholder="Email" name="name" id="email">
-                    <textarea name="question" id="question" cols="30" rows="10" placeholder="<?php _e('Вопрос', 'owletex-landing') ?>"></textarea>
-                    <div class="ask-send">
-                        <div class="captcha"></div>
-                        <button type="submit"><?php _e('Отправить', 'owletex-landing') ?></button>
-                    </div>
+                <div class="ask-form-body">
+                    <form action="" method="post">
+                        <input type="text" placeholder="Имя" name="name" id="name" required>
+                        <input type="email" placeholder="Email" name="name" id="email" required>
+                        <textarea name="question" id="question" cols="30" rows="10" placeholder="<?php _e('Вопрос', 'owletex-landing') ?>" required></textarea>
+                        <div class="ask-send">
+<!--                            <div class="captcha"></div>-->
+                            <input type="submit" value="<?php _e('Отправить', 'owletex-landing') ?>"></input>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
