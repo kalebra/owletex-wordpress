@@ -56,7 +56,8 @@ jQuery(document).ready(function($) {
     //переход по якорной ссылке в меню бургера
     $(".burger-menu a").click(function () {
         var elementClick = $(this).attr("href")
-        var destination = $(elementClick).offset().top;
+        var destination = $(elementClick).offset().top - 80;
+        console.log(destination);
         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
         $('.burger-menu').slideUp();
         $('.burger.open').removeClass('open');
@@ -110,93 +111,55 @@ jQuery(document).ready(function($) {
         if (!$(this).hasClass("active")) {
             $(".advantage").removeClass("active");
             $(this).addClass("active");
-        }
 
-        switch($(this).attr('id')) {
-            case 'a1':
-            case 'a11':
-                $('.adv-desc-left > div:first-child > div').stop();
-                $('.adv-desc-left > div:first-child > div').fadeOut();
-                $('.adv-desc-left > div:first-child > div#b1').fadeIn();
+            $('.adv-desc-left > div:first-child > div').stop();
+            $('.adv-desc-left > div:first-child > div').fadeOut();
 
-                $('.adv-desc-right > div').stop();
-                $('.adv-desc-right > div').fadeOut();
-                $('.adv-desc-right #anim-1').fadeIn();
+            $('.adv-desc-right > div').stop();
+            $('.adv-desc-right > div').fadeOut();
 
-                anim1.play();
-                anim2.stop();
-                anim3.stop();
-                anim4.stop();
-                anim5.stop();
-            break;
+            anim1.stop();
+            anim2.stop();
+            anim3.stop();
+            anim4.stop();
+            anim5.stop();
 
-            case 'a2':
-            case 'a22':
-                $('.adv-desc-left > div:first-child > div').stop();
-                $('.adv-desc-left > div:first-child > div').fadeOut();
-                $('.adv-desc-left > div:first-child > div#b2').fadeIn();
+            switch($(this).attr('id')) {
+                case 'a1':
+                case 'a11':
+                    $('.adv-desc-left > div:first-child > div#b1').fadeIn();
+                    $('.adv-desc-right #anim-1').fadeIn();
+                    anim1.play();
+                    break;
 
-                $('.adv-desc-right > div').stop();
-                $('.adv-desc-right > div').fadeOut();
-                $('.adv-desc-right #anim-2').fadeIn();
+                case 'a2':
+                case 'a22':
+                    $('.adv-desc-left > div:first-child > div#b2').fadeIn();
+                    $('.adv-desc-right #anim-2').fadeIn();
+                    anim2.play();
+                    break;
 
-                anim1.stop();
-                anim2.play();
-                anim3.stop();
-                anim4.stop();
-                anim5.stop();
-            break;
+                case 'a3':
+                case 'a33':
+                    $('.adv-desc-left > div:first-child > div#b3').fadeIn();
+                    $('.adv-desc-right #anim-3').fadeIn();
+                    anim3.play();
+                    break;
 
-            case 'a3':
-            case 'a33':
-                $('.adv-desc-left > div:first-child > div').stop();
-                $('.adv-desc-left > div:first-child > div').fadeOut();
-                $('.adv-desc-left > div:first-child > div#b3').fadeIn();
+                case 'a4':
+                case 'a44':
+                    $('.adv-desc-left > div:first-child > div#b4').fadeIn();
+                    $('.adv-desc-right #anim-4').fadeIn();
+                    anim4.play();
+                    break;
 
-                $('.adv-desc-right > div').stop();
-                $('.adv-desc-right > div').fadeOut();
-                $('.adv-desc-right #anim-3').fadeIn();
-
-                anim1.stop();
-                anim2.stop();
-                anim3.play();
-                anim4.stop();
-                anim5.stop();
-            break;
-
-            case 'a4':
-            case 'a44':
-                $('.adv-desc-left > div:first-child > div').stop();
-                $('.adv-desc-left > div:first-child > div').fadeOut();
-                $('.adv-desc-left > div:first-child > div#b4').fadeIn();
-
-                $('.adv-desc-right > div').stop();
-                $('.adv-desc-right > div').fadeOut();
-                $('.adv-desc-right #anim-4').fadeIn();
-
-                anim1.stop();
-                anim2.stop();
-                anim3.stop();
-                anim4.play();
-                anim5.stop();
-            break;
-
-            case 'a5':
-            case 'a55':
-                $('.adv-desc-left > div:first-child > div').stop();
-                $('.adv-desc-left > div:first-child > div').fadeOut();
-                $('.adv-desc-left > div:first-child > div#b5').fadeIn();
-
-                $('.adv-desc-right > div').stop();
-                $('.adv-desc-right > div').fadeOut();
-                $('.adv-desc-right #anim-5').fadeIn();
-
-                anim1.stop();
-                anim2.stop();
-                anim3.stop();
-                anim4.stop();
-                anim5.play();
-            break;
+                case 'a5':
+                case 'a55':
+                    $('.adv-desc-left > div:first-child > div#b5').fadeIn();
+                    $('.adv-desc-right #anim-5').fadeIn();
+                    anim5.play();
+                    break;
+            }
         }
     });
 

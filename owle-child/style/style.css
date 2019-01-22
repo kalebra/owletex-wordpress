@@ -158,9 +158,11 @@ header {
   background: url(../img/arrow-down-dark.svg) no-repeat;
 }
 .top-line-wrapper .top-line .top-line-inner {
+  box-sizing: border-box;
   height: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -426,10 +428,12 @@ nav .divider {
   flex-direction: column;
   justify-content: space-between;
 }
+.advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child {
+  position: relative;
+}
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child > div {
   display: none;
   position: absolute;
-  width: 590px;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child > div.active {
   display: block;
@@ -778,7 +782,8 @@ nav .divider {
   z-index: 100;
 }
 .tariffs {
-  padding-top: 152px;
+  margin-top: 100px;
+  padding-top: 52px;
   margin-bottom: 154px;
   position: relative;
   overflow: hidden;
@@ -984,7 +989,7 @@ nav .divider {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 64px 216px;
+  padding: 0 64px 225px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -1382,6 +1387,9 @@ footer .copyrights div:first-child {
   .top-line-wrapper .top-line {
     padding: 0 48px;
   }
+  .top-line-wrapper .top-line .top-line-inner {
+    padding: 0;
+  }
   .header-wrapper .header-background-wrapper > img:first-child {
     object-position: left;
   }
@@ -1565,7 +1573,8 @@ footer .copyrights div:first-child {
     margin-bottom: 0;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
-    width: auto;
+    width: 100%;
+    height: 100%;
     min-height: 216px;
     flex: 0 1 auto;
     margin-bottom: 32px;
@@ -1828,6 +1837,9 @@ footer .copyrights div:first-child {
   .advantages .adv-desc .adv-desc-inner {
     min-height: auto;
     padding: 0 17px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left {
+    min-height: 310px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left h3 {
     font-size: 22px;
