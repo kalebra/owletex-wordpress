@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Owletex Landing
+ Template Name: Home Owletex Landing
  */
 ?>
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title><?php bloginfo('name'); ?></title>
     <script type="text/javascript">
         var templateUrl = '<?= get_bloginfo("template_url"); ?>';
     </script>
@@ -22,7 +22,7 @@
                 <a href="/"></a>
             </div>
             <nav>
-                <a href="/"><?php _e('Новости', 'owletex-landing'); ?></a>
+                <a href="/wp/news"><?php _e('Новости', 'owletex-landing'); ?></a>
                 <div class="login"><?php _e('Войти', 'owletex-landing'); ?></div>
                 <div class="divider"></div>
                 <a href="/" class="sign-up"><?php _e('Зарегистрироваться', 'owletex-landing'); ?></a>
@@ -434,19 +434,23 @@
     <h2><?php _e('Новости', 'owletex-landing') ?></h2>
     <div class="head-line"></div>
     <div class="news-cards">
-        <?php
-            while( have_posts() ) : the_post();
-        ?>
+    <?php
+        // the query
+        $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1));
+        if ( $wpb_all_query->have_posts() ) :
+            while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
                 <div class="news-card">
                     <div class="card-head"><?php echo get_the_post_thumbnail(); ?></div>
                     <div class="card-body">
                         <div class="news-header"><?php the_title(); ?></div>
-                        <div class="news-content"><?php the_content(); ?></div>
+                        <div class="news-content"><?php the_excerpt(); ?></div>
                     </div>
                 </div>
-        <?php
-            endwhile;
-        ?>
+            <?php endwhile;
+        endif;
+
+        wp_reset_postdata();
+    ?>
     </div>
     <div class="btn-all-news"><?php _e('Все новости', 'owletex-landing') ?></div>
 </section>
