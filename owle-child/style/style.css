@@ -274,6 +274,7 @@ nav .divider {
   align-items: center;
   padding: 0 16px;
   color: rgba(56, 56, 95, 0.65);
+  text-transform: capitalize;
 }
 .dropdown-language .dropdown.choices ul > li:hover,
 .dropdown-language .dropdown.choices ul > li.active {

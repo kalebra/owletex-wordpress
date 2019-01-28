@@ -22,20 +22,32 @@
                 <a href="/"></a>
             </div>
             <nav>
-                <a href="/wp/news"><?php _e('Новости', 'owletex-landing'); ?></a>
+                <a href="<?php echo get_permalink(pll_get_post(244)); ?>"><?php _e('Новости', 'owletex-landing'); ?></a>
                 <div class="login"><?php _e('Войти', 'owletex-landing'); ?></div>
                 <div class="divider"></div>
                 <a href="/" class="sign-up"><?php _e('Зарегистрироваться', 'owletex-landing'); ?></a>
                 <div class="dropdown-language">
                     <div class="dropdown-active">
+                        <?php
+                            echo pll_current_language();
+                        ?>
                         <span class="arrow-down"></span>
                     </div>
                     <div class="dropdown choices">
                         <ul>
-                            <li><a href="http://localhost/wp/" hreflang="ru-RU" lang="ru-RU">Ru</a></li>
-                            <li><a href="http://localhost/wp/en/" hreflang="en-GB" lang="en-GB">En</a></li>
-                            <li><a href="http://localhost/wp/fr/" hreflang="fr-FR" lang="fr-FR">Fr</a></li>
-                            <li><a href="http://localhost/wp/de/" hreflang="de-DE" lang="de-DE">De</a></li>
+                            <?php
+                                $langs = pll_languages_list();
+                                $page_id = get_the_ID();
+                                foreach ($langs as $lang) {
+                                    if (pll_current_language() == $lang) {
+                                        $active = "active";
+                                    } else {
+                                        $active = "";
+                                    }
+                                    $post = get_permalink(pll_get_post($page_id, $lang));;
+                                    echo '<li class="' . $active . '"><a href="' . $post . '" >' . $lang . '</a></li>';
+                                }
+                            ?>
                         </ul>
                     </div>
                 </div>
@@ -58,15 +70,26 @@
                             <a href="/" class="sign-up"><?php _e('Зарегистрироваться', 'owletex-landing'); ?></a>
                             <div class="dropdown-language">
                                 <div class="dropdown-active">
-                                    En
+                                    <?php
+                                        echo pll_current_language();
+                                    ?>
                                     <span class="arrow-down"></span>
                                 </div>
                                 <div class="dropdown choices">
                                     <ul>
-                                        <li><a href="http://localhost/wp/" hreflang="ru-RU" lang="ru-RU">Ru</a></li>
-                                        <li><a href="http://localhost/wp/en/" hreflang="en-GB" lang="en-GB">En</a></li>
-                                        <li><a href="http://localhost/wp/fr/" hreflang="fr-FR" lang="fr-FR">Fr</a></li>
-                                        <li><a href="http://localhost/wp/de/" hreflang="de-DE" lang="de-DE">De</a></li>
+                                        <?php
+                                        $langs = pll_languages_list();
+                                        $page_id = get_the_ID();
+                                        foreach ($langs as $lang) {
+                                            if (pll_current_language() == $lang) {
+                                                $active = "active";
+                                            } else {
+                                                $active = "";
+                                            }
+                                            $post = get_permalink(pll_get_post($page_id, $lang));;
+                                            echo '<li class="' . $active . '"><a href="' . $post . '" >' . $lang . '</a></li>';
+                                        }
+                                        ?>
                                     </ul>
                                 </div>
                             </div>

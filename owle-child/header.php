@@ -13,18 +13,14 @@
 <div class="news-main">
     <div class="header-wrapper">
         <header>
-            <a class="logo" href="/ru">Owletex</a>
+            <a class="logo" href="<?php echo get_home_url(); ?>">Owletex</a>
             <div class="nav-wrapper">
                 <nav>
                     <ul class="loged-in">
-                        <li><a href="">Новости</a></li>
-                        <li><a href="">Сводка</a></li>
-                        <li><a href="">Создать ордер</a></li>
-                        <li><a href="">Мои ордера</a></li>
-                        <li><a href="">Валютные пары</a></li>
-                        <li><a href="">Обмен</a></li>
-                        <li><a href="">Контакты</a></li>
-                        <li><a href="">Тарифы</a></li>
+                        <li><a href="<?php echo get_home_url(); ?>"><?php pll_e('Главная'); ?></a></li>
+                        <li><a href="/" class="active"><?php pll_e('Новости'); ?></a></li>
+                        <li><a href=""><?php pll_e('Контакты'); ?></a></li>
+                        <li><a href=""><?php pll_e('Тарифы'); ?></a></li>
                     </ul>
                 </nav>
             </div>
