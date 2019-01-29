@@ -13,7 +13,7 @@
                             <a href="<?php echo get_home_url(); ?>"><?php pll_e('Главная страница'); ?></a>
                         </li>
                         <li>
-                            <a href=""><?php pll_e('Новости'); ?></a>
+                            <a href="<?php echo get_permalink(pll_get_post(244)); ?>"><?php pll_e('Новости'); ?></a>
                         </li>
                         <li>
                             <a href=""><?php pll_e('Контакты'); ?></a>
@@ -25,7 +25,7 @@
                 <div class="copyrights">
                     <div class="copy-text">Copyright © 2012 - 2018 Owletex</div>
                     <div class="copy-links">
-                        - <a href="/ru/about">О нас</a>
+                        - <a href="/ru/about"><?php pll_e('О нас'); ?></a>
                         - <a href="/ru/terms">Terms</a>
                         - <a href="/ru/privacy">Privacy Policy</a>
                     </div>
