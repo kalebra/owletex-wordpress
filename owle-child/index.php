@@ -22,8 +22,10 @@
                 <a href="/"></a>
             </div>
             <nav>
-                <a href="<?php echo get_permalink(pll_get_post(244)); ?>"><?php _e('Новости', 'owletex-landing'); ?></a>
-                <div class="login"><?php _e('Войти', 'owletex-landing'); ?></div>
+                <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>"><?php _e('Новости', 'owletex-landing'); ?></a>
+                <div class="login">
+                    <a href="http://localhost:3000/ru/login"><?php _e('Войти', 'owletex-landing'); ?></a>
+                </div>
                 <div class="divider"></div>
                 <a href="/" class="sign-up"><?php _e('Зарегистрироваться', 'owletex-landing'); ?></a>
                 <div class="dropdown-language">
@@ -475,7 +477,9 @@
         wp_reset_postdata();
         ?>
     </div>
-    <div class="btn-all-news"><?php _e('Все новости', 'owletex-landing') ?></div>
+    <div class="btn-all-news">
+        <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>"><?php _e('Все новости', 'owletex-landing'); ?></a>
+    </div>
 </section>
 <section class="partners" id="par">
     <h2><?php _e('Партнёры', 'owletex-landing') ?></h2>

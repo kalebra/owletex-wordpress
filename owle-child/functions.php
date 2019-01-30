@@ -54,6 +54,12 @@
 
     //увеличиваем длину текста миниатюры
     function custom_excerpt_length( $length ) {
-        return 50;
+        return 30;
     }
     add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+    //меняем концовку на троеточие
+    function alx_excerpt_more( $more ) {
+        return '&#46;&#46;&#46;';
+    }
+    add_filter( 'excerpt_more', 'alx_excerpt_more' );

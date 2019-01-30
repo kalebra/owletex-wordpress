@@ -18,7 +18,7 @@
                 <nav>
                     <ul class="loged-in">
                         <li><a href="<?php echo get_home_url(); ?>"><?php pll_e('Главная'); ?></a></li>
-                        <li><a class="active" href="<?php echo get_permalink(pll_get_post(244)); ?>"><?php _e('Новости', 'owletex-landing'); ?></a></a></li>
+                        <li><a class="active" href="<?php echo get_permalink(get_option( 'page_for_posts')); ?>"><?php _e('Новости', 'owletex-landing'); ?></a></a></li>
                         <li><a href=""><?php pll_e('Контакты'); ?></a></li>
                         <li><a href=""><?php pll_e('Тарифы'); ?></a></li>
                     </ul>
