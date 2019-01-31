@@ -2,6 +2,9 @@ body {
   color: rgba(56, 56, 95, 0.65);
   font-family: 'Roboto', sans-serif;
 }
+body > div:last-child {
+  bottom: -1000px !important;
+}
 h2 {
   font-family: 'TT Commons', sans-serif;
   font-size: 32px;

@@ -15,10 +15,10 @@
         <div class="news-wrapper posts">
             <div class="news-top">
                 <?php
-                $first_query = new WP_Query('post_type=post&post_status=publish&posts_per_page=1');
+                    $first_query = new WP_Query('post_type=post&post_status=publish&&posts_per_page=1&category_name='.get_queried_object()->slug);
 
-                while ( $first_query->have_posts() ) : $first_query->the_post();
-                    ?>
+                    while ( $first_query->have_posts() ) : $first_query->the_post();
+                ?>
                     <div class="news-card">
                         <?php the_shortlink(' ', null, '', ''); ?>
                         <div class="news-head">
@@ -43,13 +43,13 @@
                         </div>
                     </div>
                 <?php
-                endwhile;
+                    endwhile;
 
-                wp_reset_postdata();
+                    wp_reset_postdata();
                 ?>
                 <div class="rightside-news">
                     <?php
-                    $second_query = new WP_Query('post_type=post&post_status=publish&posts_per_page=2&offset=1');
+                    $second_query = new WP_Query('post_type=post&post_status=publish&posts_per_page=2&offset=1&category_name='.get_queried_object()->slug);
 
                     while ( $second_query->have_posts() ) : $second_query->the_post();
                         ?>
@@ -82,10 +82,10 @@
             </div>
             <div class="news-block simple" id="my_posts">
                 <?php
-                    $third_query = new WP_Query('post_type=post&post_status=publish&offset=3');
+                $third_query = new WP_Query('post_type=post&post_status=publish&offset=3&category_name='.get_queried_object()->slug);
 
-                    while ( $third_query->have_posts() ) : $third_query->the_post();
-                ?>
+                while ( $third_query->have_posts() ) : $third_query->the_post();
+                    ?>
                     <div class="news-card">
                         <div class="news-card-inner">
                             <?php the_shortlink(' ', null, '', ''); ?>
@@ -112,13 +112,13 @@
                         </div>
                     </div>
                 <?php endwhile;
-                    wp_reset_postdata();
+                wp_reset_postdata();
                 ?>
             </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
 <?php wp_footer(); ?>
 <?php get_footer(); ?>

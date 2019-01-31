@@ -13,7 +13,7 @@
                             <a href="<?php echo get_home_url(); ?>"><?php pll_e('Главная страница'); ?></a>
                         </li>
                         <li>
-                            <a href="<?php echo get_permalink(pll_get_post(244)); ?>"><?php pll_e('Новости'); ?></a>
+                            <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>"><?php pll_e('Новости'); ?></a>
                         </li>
                         <li>
                             <a href=""><?php pll_e('Контакты'); ?></a>

@@ -111,12 +111,12 @@ a.logo {
 .news .news-top-line .tags-wrapper h2.rounded {
   display: none;
 }
-.news .news-top-line .tags-wrapper .tagcloud {
+.news .news-top-line .tags-wrapper ul {
   display: flex;
   margin-right: 20px;
   flex-wrap: wrap;
 }
-.news .news-top-line .tags-wrapper .tagcloud a.tag-cloud-link {
+.news .news-top-line .tags-wrapper ul li a {
   color: rgba(0, 0, 0, 0.65);
   display: inline-block;
   line-height: 20px;
@@ -261,6 +261,9 @@ a.logo {
 .news .news-wrapper .news-top > .news-card .news-title {
   margin-bottom: 72px;
 }
+.news .news-wrapper .news-top > .news-card .news-body {
+  min-height: 260px;
+}
 .news .news-wrapper .news-top > .news-card,
 .news .news-wrapper .news-top .rightside-news {
   flex: 0 1 50%;
@@ -336,6 +339,9 @@ a.logo {
   padding: 0 16px;
   background-color: #2D3136;
   z-index: 200;
+}
+.footer-wrapper + div {
+  bottom: -1000px !important;
 }
 footer {
   max-width: 1440px;
@@ -499,7 +505,7 @@ footer .social-icons a .vk:hover {
   display: none;
 }
 .news.read .news-wrapper .news-block .news-card .news-card-inner .news-body {
-  min-height: 238px;
+  min-height: 170px;
 }
 .news.read .news-wrapper .news-block .news-card:last-child {
   margin-bottom: 0;
@@ -610,6 +616,16 @@ footer .social-icons a .vk:hover {
   .news .news-wrapper .news-block .news-card:nth-child(2n + 1) {
     padding: 0 8px 0 0;
   }
+  .news.read .news-wrapper {
+    flex-direction: column;
+  }
+  .news.read .news-wrapper .news-read {
+    flex: 0 1 100%;
+    margin: 0;
+  }
+  .news.read .news-wrapper .news-block.side-right .news-card {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 1023px) {
   .news .news-top-line {
@@ -663,6 +679,7 @@ footer .social-icons a .vk:hover {
   }
   footer .center-part .bottom-part {
     flex-wrap: wrap;
+    padding: 0;
   }
   footer .center-part .bottom-part .copyrights,
   footer .center-part .bottom-part .social-icons {
@@ -675,6 +692,9 @@ footer .social-icons a .vk:hover {
   footer .center-part .bottom-part .social-icons {
     order: 1;
     margin-bottom: 5px;
+  }
+  footer .center-part .bottom-part .social-icons > a:last-child {
+    margin: 0;
   }
 }
 @media screen and (max-width: 479px) {
@@ -694,6 +714,7 @@ footer .social-icons a .vk:hover {
   .nav-wrapper nav ul {
     flex: 0 1 100%;
     justify-content: space-between;
+    margin: 0;
   }
   .nav-wrapper nav ul li {
     margin-right: 0;
@@ -708,7 +729,7 @@ footer .social-icons a .vk:hover {
     flex-direction: column;
   }
   footer .center-part .bottom-part .copyrights .copy-text {
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
   }
   footer .center-part .bottom-part .copyrights .copy-text,
   footer .center-part .bottom-part .copyrights .copy-links {

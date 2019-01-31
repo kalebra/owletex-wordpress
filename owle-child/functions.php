@@ -15,7 +15,7 @@
         wp_enqueue_script('aos', get_stylesheet_directory_uri() . '/js/aos.js', false, null, true );
         wp_enqueue_script('slick', get_stylesheet_directory_uri() . '/slick/slick.js', 'jquery', null, true );
 
-        if ( is_home() || is_single()) {
+        if ( is_home() || is_single() || is_category()) {
             wp_enqueue_style('home-template', get_stylesheet_directory_uri() . '/style/news.css', false, time() );
         } else {
             wp_enqueue_style('style-main', get_stylesheet_directory_uri() . '/style/style.css', false, time() );

@@ -115,11 +115,11 @@ a.logo {
       h2.rounded {
         display: none;
       }
-      .tagcloud {
+      ul {
         display: flex;
         margin-right: 20px;
         flex-wrap: wrap;
-        a.tag-cloud-link {
+        li a {
           color: rgba(0, 0, 0, 0.65);
           display: inline-block;
           line-height: 20px;
@@ -262,6 +262,9 @@ a.logo {
         .news-title {
           margin-bottom: 72px;
         }
+        .news-body {
+          min-height: 260px;
+        }
       }
       > .news-card, .rightside-news {
         flex: 0 1 50%;
@@ -343,6 +346,10 @@ a.logo {
   padding: 0 16px;
   background-color: #2D3136;
   z-index: 200;
+}
+
+.footer-wrapper + div {
+  bottom: -1000px !important;
 }
 
 footer {
@@ -517,7 +524,7 @@ footer {
             }
           }
           .news-body {
-            min-height: 238px;
+            min-height: 170px;
           }
         }
         &:last-child {
@@ -587,7 +594,6 @@ footer {
               height: 192px;
               object-fit: cover;
             }
-            //background: url(../../img/biggest-news-bg.jpg) center center no-repeat;
           }
           p {
             &:last-child {
@@ -640,6 +646,20 @@ footer {
           }
           &:nth-child(2n + 1) {
             padding: 0 8px 0 0;
+          }
+        }
+      }
+    }
+    &.read {
+      .news-wrapper {
+        flex-direction: column;
+        .news-read {
+          flex: 0 1 100%;
+          margin: 0;
+        }
+        .news-block.side-right {
+          .news-card {
+            padding: 0;
           }
         }
       }
@@ -709,6 +729,7 @@ footer {
     .center-part {
       .bottom-part {
         flex-wrap: wrap;
+        padding: 0;
         .copyrights, .social-icons {
           flex: 0 1 100%;
           justify-content: center;
@@ -719,6 +740,9 @@ footer {
         .social-icons {
           order: 1;
           margin-bottom: 5px;
+          > a:last-child {
+            margin: 0;
+          }
         }
       }
     }
@@ -742,6 +766,7 @@ footer {
       ul {
         flex: 0 1 100%;
         justify-content: space-between;
+        margin: 0;
         li {
           margin-right: 0;
         }
@@ -762,7 +787,7 @@ footer {
         .copyrights {
           flex-direction: column;
           .copy-text {
-            margin-bottom: 5px;
+            margin: 0 0 5px 0;
           }
           .copy-text, .copy-links {
             width: 100%;
