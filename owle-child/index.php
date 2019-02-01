@@ -80,8 +80,6 @@
                                 <div class="dropdown choices">
                                     <ul>
                                         <?php
-                                        $langs = pll_languages_list();
-                                        $page_id = get_the_ID();
                                         foreach ($langs as $lang) {
                                             if (pll_current_language() == $lang) {
                                                 $active = "active";
@@ -373,7 +371,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-tariffs">
+        <div class="card-tariffs" data-aos="fade-down" data-aos-delay="1800" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="300" data-aos-once="true">
             <div class="card-head">
                 <h3><?php _e('Бесплатно', 'owletex-landing') ?></h3>
             </div>
@@ -388,7 +386,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-tariffs">
+        <div class="card-tariffs" data-aos="fade-down" data-aos-delay="1800" data-aos-easing="linear" data-aos-duration="600" data-aos-offset="300" data-aos-once="true">
             <div class="card-head">
                 <h3><?php _e('Бесплатно', 'owletex-landing') ?></h3>
             </div>
@@ -465,6 +463,7 @@
         if ( $wpb_all_query->have_posts() ) :
             while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
                 <div class="news-card">
+                    <?php the_shortlink(' ', null, '', ''); ?>
                     <div class="card-head"><?php echo get_the_post_thumbnail(); ?></div>
                     <div class="card-body">
                         <div class="news-header"><?php the_title(); ?></div>

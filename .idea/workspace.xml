@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8318e0e7-e655-4a0f-ae02-7b84257ad7a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/owle-child/category.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/owle/img/vk-light.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/owle/img/vk.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle" beforeDir="false" afterPath="$PROJECT_DIR$/owle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle-child/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle-child/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle-child/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owle-child/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/style/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/style/news.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/news.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/style/news.less" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/news.less" afterDir="false" />
@@ -164,15 +166,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/owle-child/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -184,17 +177,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="31027">
+              <caret line="1633" column="17" selection-start-line="1633" selection-start-column="17" selection-end-line="1633" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle-child/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8797">
+              <caret line="465" column="62" selection-start-line="465" selection-start-column="62" selection-end-line="465" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/owle-child/index.php">
+        <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="479" column="4" selection-start-line="479" selection-start-column="4" selection-end-line="481" selection-end-column="10" />
+            <state relative-caret-position="38">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle-child/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="67" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -202,8 +213,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/style/news.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="265" selection-end-column="28" />
+            <state relative-caret-position="623">
+              <caret line="396" column="21" selection-start-line="396" selection-start-column="21" selection-end-line="396" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle-child/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -211,17 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/owle-child/category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="84" column="131" selection-start-line="84" selection-start-column="131" selection-end-line="84" selection-end-column="131" />
+            <state relative-caret-position="1064">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -237,10 +248,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_theme_mod(</find>
-      <find>_e(</find>
-      <find>child-theme-name</find>
-      <find>owletex-child</find>
       <find>//</find>
       <find>slick-slide</find>
       <find>.slick-slide</find>
@@ -248,7 +255,6 @@
       <find>img</find>
       <find>opp-imgs-mobile</find>
       <find>acco</find>
-      <find>faq</find>
       <find>short</find>
       <find>the_vi</find>
       <find>ald</find>
@@ -264,6 +270,14 @@
       <find>exc</find>
       <find>footer-wrapper</find>
       <find>single_tag_title()</find>
+      <find>news</find>
+      <find>faq</find>
+      <find>tarrifs</find>
+      <find>767</find>
+      <find>dropdown choices</find>
+      <find>card-tariffs</find>
+      <find>slide</find>
+      <find>tarri</find>
     </findStrings>
     <replaceStrings>
       <replace>pll__(get_theme_mod(</replace>
@@ -300,19 +314,19 @@
         <option value="$PROJECT_DIR$/owle-child/news.php" />
         <option value="$PROJECT_DIR$/../plugins/ajax-load-more-anything/ajax-load-div.php" />
         <option value="$PROJECT_DIR$/../../wp-includes/formatting.php" />
-        <option value="$PROJECT_DIR$/owle-child/js/main.js" />
         <option value="$PROJECT_DIR$/owle/functions.php" />
-        <option value="$PROJECT_DIR$/owle-child/footer.php" />
         <option value="$PROJECT_DIR$/../plugins/ajax-load-more-anything/inc/ald-scripts.php" />
         <option value="$PROJECT_DIR$/owle-child/single.php" />
-        <option value="$PROJECT_DIR$/owle-child/header.php" />
-        <option value="$PROJECT_DIR$/owle-child/index.php" />
         <option value="$PROJECT_DIR$/owle-child/home.php" />
         <option value="$PROJECT_DIR$/owle-child/tag.php" />
-        <option value="$PROJECT_DIR$/owle-child/functions.php" />
         <option value="$PROJECT_DIR$/owle-child/category.php" />
-        <option value="$PROJECT_DIR$/owle-child/style/news.less" />
+        <option value="$PROJECT_DIR$/owle-child/header.php" />
+        <option value="$PROJECT_DIR$/owle-child/functions.php" />
         <option value="$PROJECT_DIR$/owle-child/style/style.less" />
+        <option value="$PROJECT_DIR$/owle-child/index.php" />
+        <option value="$PROJECT_DIR$/owle-child/footer.php" />
+        <option value="$PROJECT_DIR$/owle-child/style/news.less" />
+        <option value="$PROJECT_DIR$/owle-child/js/main.js" />
       </list>
     </option>
   </component>
@@ -331,6 +345,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,13 +362,18 @@
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="owle-child" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="owle-child" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,18 +451,20 @@
       <workItem from="1548857432633" duration="2442000" />
       <workItem from="1548924541826" duration="3465000" />
       <workItem from="1548932039881" duration="6298000" />
-      <workItem from="1548944065420" duration="3053000" />
+      <workItem from="1548944065420" duration="3730000" />
+      <workItem from="1549011127838" duration="8813000" />
+      <workItem from="1549031000751" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200285000" />
+    <option name="totallyTimeSpent" value="210840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -615,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="7" selection-end-line="44" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/owle/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="985">
@@ -636,34 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="84" column="131" selection-start-line="84" selection-start-column="131" selection-end-line="84" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -671,10 +658,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/style/news.less">
+    <entry file="file://$PROJECT_DIR$/owle-child/category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="265" selection-end-column="28" />
+        <state relative-caret-position="1596">
+          <caret line="84" column="131" selection-start-line="84" selection-start-column="131" selection-end-line="84" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -687,22 +681,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="31027">
+          <caret line="1633" column="17" selection-start-line="1633" selection-start-column="17" selection-end-line="1633" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="479" column="4" selection-start-line="479" selection-start-column="4" selection-end-line="481" selection-end-column="10" />
+        <state relative-caret-position="8797">
+          <caret line="465" column="62" selection-start-line="465" selection-start-column="62" selection-end-line="465" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/style/news.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="396" column="21" selection-start-line="396" selection-start-column="21" selection-end-line="396" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -31,19 +31,6 @@ jQuery(document).ready(function($) {
         $('.dropdown.choices').slideToggle(250);
     });
 
-    // //считываем текущий язык
-    // var path = window.location.pathname;
-    // path = path.substring(1, 3);
-    // if (!path) {
-    //     path = 'ru';
-    // }
-    // var lang = $('nav > .dropdown-language > .dropdown-active').html();
-    // //показываем текущий язык
-    // $('.dropdown-language > .dropdown-active').html(path + lang);
-    // //добавляем стили для активного языка в выпадающем меню
-    // path = path.charAt(0).toUpperCase() + path.slice(1);
-    // $('.dropdown.choices a:contains(' + path + ')').parent().addClass('active');
-
     //клик по бургеру
     $('.burger').click(function (e) {
         e.stopPropagation();
@@ -183,6 +170,9 @@ jQuery(document).ready(function($) {
 
 
     $(window).scroll(function(){
+        //рифреш плагина при переходе по якорной ссылке
+        if ($(window).scrollTop() < 3500 && $(window).scrollTop() > 3000) AOS.refresh();
+
         //анимация меню хедера
         var scrollTop = $(window).scrollTop();
         if (scrollTop > 1) {
@@ -204,6 +194,7 @@ jQuery(document).ready(function($) {
         } else {
             $('.opp-imgs').removeClass('smaller');
         }
+
     });
 
     //блок тарифов, анимация ховера
@@ -276,5 +267,7 @@ jQuery(document).ready(function($) {
                 }
             }
         ]
+    }).on('setPosition', function (event, slick) {
+        slick.$slides.css('height', slick.$slideTrack.height() + 'px');
     });
 });

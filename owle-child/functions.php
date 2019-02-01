@@ -54,7 +54,7 @@
 
     //увеличиваем длину текста миниатюры
     function custom_excerpt_length( $length ) {
-        return 30;
+        return 26;
     }
     add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 

@@ -51,9 +51,10 @@ div {
 }
 
 .slick-slide {
-  height: auto !important;
+  height: 100%;
   margin: 0 16px;
   > div {
+    height: 100%;
     outline: none;
   }
 }
@@ -624,7 +625,7 @@ nav {
 
 // Exchanges
 .exchanges {
-  padding: 92px 0 143px;
+  padding: 92px 0 160px;
   position: relative;
   background: linear-gradient(148.81deg, #501FA5 -0.06%, #A419B2 96.95%);
   overflow: hidden;
@@ -1247,7 +1248,17 @@ nav {
       box-shadow: 0 8px 24px rgba(80, 31, 165, 0.1);
       border-radius: 4px;
       margin: 24px 0;
+      position: relative;
       outline: none;
+      > a {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        cursor: pointer;
+        z-index: 100;
+        outline: none;
+      }
       .card-head {
         height: 192px;
         img {
@@ -1594,7 +1605,7 @@ footer {
     }
   }
   .faq > img:nth-child(2) {
-    top: 311px;
+    top: 270px;
   }
   .faq-inner {
     padding: 0 48px 251px;
@@ -1620,7 +1631,7 @@ footer {
   .news {
     padding: 35px 0 0;
     .news-cards .news-card {
-      height: auto;
+      height: 90%;
     }
     .slick-next {
       display: none !important;
@@ -1941,7 +1952,13 @@ footer {
       }
       .dropdown-language {
         display: block;
-
+        .dropdown.choices {
+          top: auto;
+          bottom: 45px;
+          ul > li.active {
+            display: none;
+          }
+        }
       }
     }
   }
@@ -2068,19 +2085,11 @@ footer {
           }
         }
         .opp-text {
-          //height: 890px;
           height: auto;
           margin-bottom: 35px;
           padding: 0 24px;
           > img {
             display: none;
-            //width: 381px;
-            //&:nth-last-child(2) {
-            //  bottom: 5px;
-            //}
-            //&:nth-last-child(3) {
-            //  bottom: 10px;
-            //}
           }
         }
       }
@@ -2109,6 +2118,9 @@ footer {
         margin-bottom: 24px;
         &:last-child {
           margin-bottom: 52px;
+        }
+        &.animated:hover {
+          transform: scale(1);
         }
         .card-body {
           .opps {

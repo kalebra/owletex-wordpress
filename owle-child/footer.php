@@ -2,6 +2,7 @@
     <footer>
         <div class="feedback-wrapper">
             <button name="Обратная связь" type="button" class="ant-btn ant-btn-primary">
+                <a href="<?php echo get_home_url()."/#faq"; ?>"></a>
                 <span><?php pll_e('Обратная связь'); ?></span>
             </button>
         </div>
@@ -16,7 +17,7 @@
                             <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>"><?php pll_e('Новости'); ?></a>
                         </li>
                         <li>
-                            <a href=""><?php pll_e('Контакты'); ?></a>
+                            <a href="<?php echo get_home_url()."/#faq"; ?>"><?php pll_e('Контакты'); ?></a>
                         </li>
                     </ul>
                 </div>
