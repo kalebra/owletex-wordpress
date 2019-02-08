@@ -144,29 +144,31 @@
                     </div>
                 </div>
                 <div class="adv-bar">
-                    <div class="advantage active" id="a1">
-                        <div>
-                            <div></div>
+                    <div>
+                        <div class="advantage active" id="a1">
+                            <div>
+                                <div></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="advantage" id="a2">
-                        <div>
-                            <div></div>
+                        <div class="advantage" id="a2">
+                            <div>
+                                <div></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="advantage" id="a3">
-                        <div>
-                            <div></div>
+                        <div class="advantage" id="a3">
+                            <div>
+                                <div></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="advantage" id="a4">
-                        <div>
-                            <div></div>
+                        <div class="advantage" id="a4">
+                            <div>
+                                <div></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="advantage" id="a5">
-                        <div>
-                            <div></div>
+                        <div class="advantage" id="a5">
+                            <div>
+                                <div></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -247,7 +249,9 @@
             <div class="opp-text">
                 <h3><?php echo pll__(get_theme_mod( 'features-h-1', 'Первая возможность' )); ?></h3>
                 <p><?php echo pll__(get_theme_mod( 'features-p-1', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
+                <div class="opp-imgs-desktop">
+                    <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
+                </div>
             </div>
             <div class="opp-imgs-mobile">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
@@ -255,8 +259,10 @@
             <div class="opp-text">
                 <h3><?php echo pll__(get_theme_mod( 'features-h-2', 'Вторая возможность' )); ?></h3>
                 <p><?php echo pll__(get_theme_mod( 'features-p-2', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
+                <div class="opp-imgs-desktop">
+                    <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
+                    <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
+                </div>
             </div>
             <div class="opp-imgs-mobile">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
@@ -265,9 +271,11 @@
             <div class="opp-text">
                 <h3><?php echo pll__(get_theme_mod( 'features-h-3', 'Третья возможность' )); ?></h3>
                 <p><?php echo pll__(get_theme_mod( 'features-p-3', 'Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.' )); ?></p>
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
-                <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
+                <div class="opp-imgs-desktop">
+                    <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
+                    <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
+                    <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity1.png" alt="Opportunity 1">
+                </div>
             </div>
             <div class="opp-imgs-mobile">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
@@ -311,8 +319,14 @@
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
                 </div>
                 <div class="buy">
                     <div class="price">$0</div>
@@ -326,11 +340,26 @@
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp">
+                        <span></span>
+                        <span>Преимущество на поешь этих сладких булочек</span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span>Преимущество на поешь этих сладких булочек</span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
                 </div>
                 <div class="buy">
                     <div class="discount">$800</div>
@@ -345,9 +374,18 @@
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
                 </div>
                 <div class="buy">
                     <div class="price">$500</div>
@@ -361,9 +399,18 @@
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
                 </div>
                 <div class="buy">
                     <div class="price">$500</div>
@@ -377,8 +424,14 @@
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
                 </div>
                 <div class="buy">
                     <div class="price">$0</div>
@@ -392,8 +445,14 @@
             </div>
             <div class="card-body">
                 <div class="opps">
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
-                    <div class="opp"><?php _e('Преимущество', 'owletex-landing') ?></div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
+                    <div class="opp">
+                        <span></span>
+                        <span><?php _e('Преимущество', 'owletex-landing') ?></span>
+                    </div>
                 </div>
                 <div class="buy">
                     <div class="price">$0</div>

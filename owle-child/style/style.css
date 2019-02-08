@@ -48,11 +48,9 @@ div {
   cursor: default;
 }
 .slick-slide {
-  height: 100%;
   margin: 0 16px;
 }
 .slick-slide > div {
-  height: 100%;
   outline: none;
 }
 .slick-prev,
@@ -139,7 +137,6 @@ header {
 .top-line-wrapper .top-line {
   height: 128px;
   transition: all 0.3s ease-in-out;
-  padding: 0 64px;
 }
 .top-line-wrapper .top-line.alt {
   height: 88px;
@@ -169,11 +166,11 @@ header {
 }
 .top-line-wrapper .top-line .top-line-inner {
   box-sizing: border-box;
+  display: flex;
   height: 100%;
   max-width: 1440px;
-  margin: 0 auto;
   padding: 0 64px;
-  display: flex;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 }
@@ -437,13 +434,16 @@ nav .divider {
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left {
   height: 394px;
-  flex: 0 1 45%;
+  flex: 0 1 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-right: 5%;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child {
   position: relative;
+  height: 100%;
+  margin-bottom: 20px;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child > div {
   display: none;
@@ -462,15 +462,20 @@ nav .divider {
 .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar {
   display: flex;
 }
+.advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar > div {
+  display: flex;
+}
 .advantages .adv-desc .adv-desc-inner .adv-desc-right {
-  width: 589px;
-  height: 394px;
+  flex: 0 1 50%;
+  margin-left: 5%;
   position: relative;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-right > div {
   display: none;
   position: absolute;
   top: 0;
+  bottom: 0;
+  left: 0;
   right: 0;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-right > div:first-child {
@@ -479,9 +484,8 @@ nav .divider {
 .advantages .adv-desc .adv-bar {
   display: none;
   align-items: center;
-  height: 148px;
+  height: 184px;
   position: relative;
-  left: -34px;
 }
 .advantages .adv-desc .adv-bar .advantage {
   width: 142px;
@@ -688,32 +692,32 @@ nav .divider {
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
-  margin: 0 auto 214px;
-  padding-left: 64px;
-  height: 2200px;
+  margin: 0 auto 250px;
+  height: 1955px;
   box-sizing: border-box;
   position: relative;
 }
-.main-opportunities .main-content .opp-text {
-  width: 624px;
-  height: 509px;
-  align-self: flex-start;
-  margin-bottom: 200px;
+.main-opportunities .main-content .opp-texts {
+  flex: 0 1 50%;
+  padding-left: 64px;
 }
-.main-opportunities .main-content .opp-text h3 {
+.main-opportunities .main-content .opp-texts .opp-text {
+  margin-bottom: 230px;
+}
+.main-opportunities .main-content .opp-texts .opp-text h3 {
   margin-top: 0;
 }
-.main-opportunities .main-content .opp-text:last-child {
+.main-opportunities .main-content .opp-texts .opp-text:last-child {
   margin-bottom: 0;
 }
-.main-opportunities .main-content .opp-text > img {
+.main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop > img {
   display: none;
 }
 .main-opportunities .main-content .opp-imgs {
   margin-top: -200px;
-  height: 2490px;
+  height: 2200px;
   margin-left: 40px;
-  width: 680px;
+  flex: 0 1 50%;
   box-sizing: border-box;
   position: relative;
 }
@@ -859,7 +863,7 @@ nav .divider {
 }
 .tariffs .cards-tariffs .card-tariffs .card-body {
   box-sizing: border-box;
-  height: 358px;
+  min-height: 358px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -871,24 +875,24 @@ nav .divider {
 }
 .tariffs .cards-tariffs .card-tariffs .card-body .opps .opp {
   box-sizing: border-box;
-  height: 38px;
+  min-height: 38px;
   border-top: 1px solid rgba(0, 0, 0, 0.04);
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  padding: 5px 0;
 }
 .tariffs .cards-tariffs .card-tariffs .card-body .opps .opp:last-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
 }
-.tariffs .cards-tariffs .card-tariffs .card-body .opps .opp:before {
+.tariffs .cards-tariffs .card-tariffs .card-body .opps .opp span:first-child {
   content: '';
-  width: 20px;
+  flex: 0 0 20px;
   height: 20px;
-  position: absolute;
-  top: 9px;
-  left: 20px;
   background: url(../img/check-mark.png) no-repeat;
+}
+.tariffs .cards-tariffs .card-tariffs .card-body .opps .opp span:last-child {
+  text-align: center;
 }
 .tariffs .cards-tariffs .card-tariffs .card-body .price {
   font-size: 48px;
@@ -952,9 +956,6 @@ nav .divider {
   background-image: url(../img/best-choice.png);
   width: 112px;
   height: 112px;
-}
-.tariffs .cards-tariffs .card-tariffs.best-choice .card-body {
-  height: 428px;
 }
 .tariffs .cards-tariffs .card-tariffs.best-choice .card-body .opps .opp:last-child {
   margin-bottom: 24px;
@@ -1415,11 +1416,8 @@ footer .copyrights div:first-child {
   }
 }
 @media screen and (max-width: 1439px) {
-  .top-line-wrapper .top-line {
-    padding: 0 48px;
-  }
   .top-line-wrapper .top-line .top-line-inner {
-    padding: 0;
+    padding: 0 48px;
   }
   .header-wrapper .header-background-wrapper > img:first-child {
     object-position: left;
@@ -1431,25 +1429,34 @@ footer .copyrights div:first-child {
     padding: 0 48px;
   }
   .header-wrapper header .header-main img {
-    right: -417px;
+    right: -3%;
+    width: 50%;
+    height: auto;
     object-position: 0 0;
   }
   .advantages {
     padding: 24px 48px 0;
-    margin: 840px auto 152px;
+    margin: 840px auto 70px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
-    width: 41%;
+    height: 370px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar {
-    display: none;
+    height: auto;
   }
-  .advantages .adv-desc .adv-desc-inner .adv-desc-right {
-    width: 490px;
-    height: 332px;
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage {
+    width: 86px;
+    height: 86px;
+    margin-right: 3px;
   }
-  .advantages .adv-desc > .adv-bar {
-    display: flex;
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage.active > div {
+    width: 65px;
+    height: 65px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage > div > div {
+    width: 45px;
+    height: 45px;
+    background-size: 25px;
   }
   .scheme-of-work .main-content {
     max-width: 1024px;
@@ -1462,37 +1469,55 @@ footer .copyrights div:first-child {
     margin-right: 40px;
   }
   .main-opportunities .main-content {
-    height: 2500px;
+    height: 2100px;
+  }
+  .main-opportunities .main-content .opp-texts {
+    flex: 0 1 50%;
     padding-left: 48px;
   }
-  .main-opportunities .main-content .opp-text {
-    width: 424px;
+  .main-opportunities .main-content .opp-texts .opp-text {
+    margin-bottom: 180px;
   }
   .main-opportunities .main-content .opp-imgs {
-    height: 2700px;
+    height: 2400px;
+  }
+  .main-opportunities .main-content .opp-imgs .opp-img img {
+    width: 95%;
   }
   .main-opportunities .main-content .opp-imgs.smaller {
     padding-bottom: 100px;
-    max-width: 512px;
+    margin-left: 0;
+    width: 100%;
+    position: absolute;
+    max-width: none;
+  }
+  .main-opportunities .main-content .opp-imgs.smaller .opp-img-back-wrapp {
+    display: none;
   }
   .main-opportunities .main-content .opp-imgs.smaller .opp-img {
-    width: 100%;
-    transform: translateX(0px);
+    width: 50%;
+    left: 0;
   }
   .main-opportunities .main-content .opp-imgs.smaller .opp-img:nth-child(2) {
-    transform: translateX(-560px);
+    left: 100%;
+    transform: translateX(-95%);
   }
   .main-opportunities .main-content .opp-imgs.smaller .opp-img:nth-child(3) {
-    transform: translateX(-280px);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main-opportunities .main-content .opp-imgs.smaller .opp-img:nth-child(4) {
+    left: 100%;
+    transform: translateX(-5%);
   }
   .main-opportunities .main-content .opp-imgs.smaller img {
-    width: 110%;
+    width: 100%;
   }
   .tariffs .cards-tariffs .slick-prev {
-    left: 5px;
+    left: 10px;
   }
   .tariffs .cards-tariffs .slick-next {
-    right: 5px;
+    right: 10px;
   }
   .tariffs .cards-tariffs .card-tariffs .card-body {
     padding: 40px 14px 24px;
@@ -1500,14 +1525,11 @@ footer .copyrights div:first-child {
   .tariffs .cards-tariffs .card-tariffs .card-body .opps {
     padding: 0 18px;
   }
-  .tariffs .cards-tariffs .card-tariffs .card-body .opps .opp {
-    justify-content: flex-end;
-  }
   .tariffs .cards-tariffs .card-tariffs .card-body .opps .opp:before {
     left: 0;
   }
   .tariffs .cards-tariffs {
-    padding: 0  48px;
+    padding: 0  68px;
   }
   .faq > img:nth-child(2) {
     top: 270px;
@@ -1531,9 +1553,6 @@ footer .copyrights div:first-child {
   .news {
     padding: 35px 0 0;
   }
-  .news .news-cards .news-card {
-    height: 90%;
-  }
   .news .slick-next {
     display: none !important;
   }
@@ -1548,17 +1567,27 @@ footer .copyrights div:first-child {
     margin-bottom: 32px;
   }
 }
+@media screen and (max-width: 1080px) {
+  .header-main-left {
+    flex: 0 0 525px;
+  }
+}
 @media screen and (max-width: 1023px) {
   .header-wrapper {
     margin-bottom: 526px;
   }
   .header-wrapper header {
-    height: 1120px;
+    height: 1200px;
+  }
+  .header-wrapper header .header-main .header-main-left {
+    flex: 0 1 100%;
   }
   .header-wrapper header .header-main img {
+    width: auto;
     left: 56%;
+    right: 0;
     transform: translateX(-50%);
-    top: 181px;
+    top: 220px;
   }
   nav > div:nth-child(2) {
     display: none;
@@ -1578,45 +1607,61 @@ footer .copyrights div:first-child {
     margin: 840px auto 106px;
   }
   .advantages.alt {
-    margin: 1150px auto 106px;
+    margin: 1070px auto 80px;
   }
   .advantages .head-line {
-    margin: 0 auto 21px;
+    margin: 0 auto 51px;
   }
   .advantages .adv-desc {
     display: flex;
     flex-direction: column-reverse;
   }
   .advantages .adv-desc .adv-desc-left .adv-bar {
-    display: none;
-  }
-  .advantages .adv-desc > .adv-bar {
-    position: static;
-    margin-bottom: 33px;
-  }
-  .advantages .adv-desc > .adv-bar .advantage {
-    margin-right: -7px;
+    justify-content: center;
+    margin-bottom: 10px;
   }
   .advantages .adv-desc .adv-desc-inner {
-    min-height: 632px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
     width: 100%;
-    height: 100%;
+    height: 315px;
     min-height: 216px;
     flex: 0 1 auto;
     margin-bottom: 32px;
+    padding-right: 0;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage {
+    width: 142px;
+    height: 142px;
+    margin-right: 0;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage.active > div {
+    width: 103px;
+    height: 103px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage > div > div {
+    width: 72px;
+    height: 72px;
+    background-size: auto;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-right {
-    width: 660px;
-    height: 430px;
+    display: none;
+  }
+  .exchanges {
+    padding: 80px 0;
+  }
+  .exchanges .head-line {
+    margin-bottom: 80px;
+  }
+  .scheme-of-work {
+    padding-top: 80px;
   }
   .scheme-of-work .main-content {
-    flex-direction: column-reverse;
-    margin: 0 auto 64px;
+    flex-direction: column;
+    margin: 0 auto 32px;
   }
   .scheme-of-work .main-content .scheme-steps {
     margin-bottom: 32px;
@@ -1626,47 +1671,54 @@ footer .copyrights div:first-child {
   }
   .scheme-of-work .main-content .scheme-image {
     margin-right: 0;
-  }
-  .scheme-of-work .main-content .scheme-image #scheme-anim {
-    height: 878px;
+    margin-bottom: 50px;
   }
   .scheme-of-work .btn-reg {
-    margin: 0 auto 198px;
+    margin: 0 auto 80px;
   }
   .main-opportunities {
     padding: 92px 0 80px;
   }
+  .main-opportunities .head-line {
+    margin-bottom: 70px;
+  }
   .main-opportunities .main-content {
     flex-direction: column;
     padding: 0;
-    margin: 0 auto 153px;
+    margin: 0 auto 50px;
     height: auto;
+  }
+  .main-opportunities .main-content .opp-texts {
+    padding: 0;
   }
   .main-opportunities .main-content .opp-texts .opp-text {
     width: auto;
-    height: 920px;
-    position: relative;
     padding: 0 48px;
-    margin-bottom: 96px;
-    overflow: hidden;
+    margin-bottom: 48px;
   }
   .main-opportunities .main-content .opp-texts .opp-text:last-child {
     margin-bottom: 0;
   }
-  .main-opportunities .main-content .opp-texts .opp-text > img {
+  .main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop {
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 862px;
+    height: 460px;
+    position: relative;
+    margin-top: 30px;
   }
-  .main-opportunities .main-content .opp-texts .opp-text > img:nth-last-child(2) {
-    bottom: 10px;
+  .main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop img {
+    display: block;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+  }
+  .main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop img:nth-last-child(2) {
+    top: 10px;
     z-index: 1;
   }
-  .main-opportunities .main-content .opp-texts .opp-text > img:nth-last-child(3) {
-    bottom: 20px;
+  .main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop img:nth-last-child(3) {
+    top: 0;
     z-index: 2;
   }
   .main-opportunities .main-content .opp-imgs {
@@ -1682,17 +1734,21 @@ footer .copyrights div:first-child {
     width: 537px;
     position: absolute;
   }
+  .main-opportunities > .opp-imgs-mobile > img:first-child {
+    left: 48px;
+  }
   .main-opportunities > .opp-imgs-mobile > img:nth-child(2) {
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .main-opportunities > .opp-imgs-mobile > img:last-child {
-    right: 0;
+    right: 48px;
   }
   .main-opportunities .want-to-try {
     margin-top: 0;
   }
   .tariffs {
-    padding-top: 192px;
+    margin-top: 30px;
     margin-bottom: 128px;
   }
   .tariffs > img {
@@ -1702,15 +1758,16 @@ footer .copyrights div:first-child {
     margin-bottom: 76px;
   }
   .tariffs .cards-tariffs {
-    padding: 0 124px;
+    padding: 0 48px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .tariffs .cards-tariffs .card-tariffs {
-    margin-bottom: 48px;
-  }
-  .tariffs .cards-tariffs .card-tariffs:last-child {
-    margin-bottom: 64px;
+    flex: 0 1 47%;
+    margin: 0 1% 50px;
   }
   .tariffs .cards-tariffs .card-tariffs .card-body {
+    height: calc(100% - 92px);
     padding: 49px 26px 24px;
   }
   .tariffs .cards-tariffs .card-tariffs .card-body .opps {
@@ -1748,7 +1805,7 @@ footer .copyrights div:first-child {
     padding-bottom: 16px;
   }
   .news {
-    padding: 76px 0 0 0;
+    padding: 20px 0 0 0;
   }
   .news .news-cards {
     padding: 0;
@@ -1759,6 +1816,9 @@ footer .copyrights div:first-child {
   .news .news-cards .slick-list .slick-slide {
     width: 373px !important;
   }
+  .news .btn-all-news {
+    margin-bottom: 80px;
+  }
   footer .main-content .company-info {
     flex: 0 1 343px;
   }
@@ -1767,6 +1827,11 @@ footer .copyrights div:first-child {
   }
   footer .main-content .menu-head {
     margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop {
+    height: 365px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1959,7 +2024,7 @@ footer .copyrights div:first-child {
     margin-bottom: 35px;
     padding: 0 24px;
   }
-  .main-opportunities .main-content .opp-texts .opp-text > img {
+  .main-opportunities .main-content .opp-texts .opp-text .opp-imgs-desktop {
     display: none;
   }
   .main-opportunities > .opp-imgs-mobile {
@@ -1972,7 +2037,7 @@ footer .copyrights div:first-child {
     width: 272px;
   }
   .tariffs {
-    padding-top: 96px;
+    padding-top: 50px;
     margin-bottom: 140px;
   }
   .tariffs .head-line {
@@ -1983,9 +2048,6 @@ footer .copyrights div:first-child {
   }
   .tariffs .cards-tariffs .card-tariffs {
     margin-bottom: 24px;
-  }
-  .tariffs .cards-tariffs .card-tariffs:last-child {
-    margin-bottom: 52px;
   }
   .tariffs .cards-tariffs .card-tariffs.animated:hover {
     transform: scale(1);
@@ -2108,6 +2170,12 @@ footer .copyrights div:first-child {
   }
   footer .copyrights {
     padding: 20px 21px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tariffs .cards-tariffs .card-tariffs {
+    flex: 0 1 100%;
+    margin: 0 0 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */

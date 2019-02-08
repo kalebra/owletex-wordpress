@@ -187,10 +187,13 @@ jQuery(document).ready(function($) {
 
         //блок возможностей, анимация в конце блока
         var my_offset = $('.fir').offset().top - $('.opp-imgs').offset().top;
-        var target_offset = 1980;
-        if ($(window).width() < 1025) target_offset = 2240;
+        var target_offset = 1680;
+        if ($(window).width() < 1100) target_offset = 1870;
+        if ($(window).width() < 1025) target_offset = 1840;
+        console.log(my_offset);
         if (my_offset >= target_offset) {
-            $('.opp-imgs').addClass('smaller');
+            if (!$('.opp-imgs').hasClass('smaller'))
+                $('.opp-imgs').addClass('smaller');
         } else {
             $('.opp-imgs').removeClass('smaller');
         }
@@ -219,6 +222,24 @@ jQuery(document).ready(function($) {
         ]
     });
 
+    //реинициализировать slick при увеличении ширины окна
+    $(window).on('resize', function(){
+        var width = $(window).width();
+        if(width > 1023 && !$('.cards-tariffs').hasClass('slick-initialized')) {
+            $('.cards-tariffs').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: "unslick"
+                    }
+                ]
+            });
+        }
+    });
+
     //блок faq, клик по аккордиону
     $('.accordions-head').unbind('click');
     $('.accordions-head').click(function() {
@@ -234,8 +255,8 @@ jQuery(document).ready(function($) {
         respondTo: 'min',
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
+        // autoplay: true,
+        // autoplaySpeed: 4000,
         responsive: [
             {
                 breakpoint: 1025,
