@@ -249,7 +249,7 @@ jQuery(document).ready(function($) {
         };
     });
 
-    //блок новостей, слайдер
+    // блок новостей, слайдер
     $('.news-cards').slick({
         responsive: true,
         respondTo: 'min',
@@ -262,29 +262,12 @@ jQuery(document).ready(function($) {
                 breakpoint: 1025,
                 settings: {
                     centerMode: true,
-                    centerPadding: '293px',
-                    slidesToShow: 1,
+                    // centerPadding: '293px',
+                    infinite: false,
+                    // variableWidth: true,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 769,
-                settings: {
-                    centerMode: false,
-                    infinite: false,
-                    variableWidth: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 321,
-                settings: {
-                    centerMode: false,
-                    infinite: false,
-                    variableWidth: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    initialSlide: 1,
                 }
             }
         ]

@@ -51,7 +51,10 @@ div {
   margin: 0 16px;
 }
 .slick-slide > div {
+  height: 100%;
   outline: none;
+  padding: 24px 0;
+  box-sizing: border-box;
 }
 .slick-prev,
 .slick-next {
@@ -1157,12 +1160,12 @@ nav .divider {
   color: #FFFFFF;
 }
 .news {
-  padding: 35px 128px 0;
+  box-sizing: border-box;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
-  box-sizing: border-box;
   margin: 0 auto;
+  padding: 35px 128px 0;
 }
 .news .head-line {
   margin-bottom: 28px;
@@ -1187,11 +1190,9 @@ nav .divider {
   background: #A419B2;
 }
 .news .news-cards .news-card {
-  width: 374px;
-  height: 500px;
+  height: 100%;
   box-shadow: 0 8px 24px rgba(80, 31, 165, 0.1);
   border-radius: 4px;
-  margin: 24px 0;
   position: relative;
   outline: none;
 }
@@ -1212,6 +1213,7 @@ nav .divider {
   height: 100%;
 }
 .news .news-cards .news-card .card-body {
+  min-height: 274px;
   padding: 24px;
 }
 .news .news-cards .news-card .card-body .news-header {
@@ -1813,9 +1815,6 @@ footer .copyrights div:first-child {
   .news .news-cards .slick-list {
     padding: 0 48px;
   }
-  .news .news-cards .slick-list .slick-slide {
-    width: 373px !important;
-  }
   .news .btn-all-news {
     margin-bottom: 80px;
   }
@@ -1845,6 +1844,9 @@ footer .copyrights div:first-child {
   .top-line-wrapper .top-line {
     padding: 0 24px;
   }
+  .top-line-wrapper .top-line .top-line-inner {
+    padding: 0;
+  }
   .top-line-wrapper .sign-up,
   .top-line-wrapper .dropdown-language {
     display: none;
@@ -1862,10 +1864,6 @@ footer .copyrights div:first-child {
   .header-wrapper header {
     height: 720px;
     background: linear-gradient(103.42deg, #501FA5 -21.09%, #A419B2 120.66%);
-  }
-  .header-wrapper header .top-line {
-    padding: 0 24px;
-    margin-bottom: 32px;
   }
   .header-wrapper header .header-main {
     display: block;
@@ -2108,11 +2106,7 @@ footer .copyrights div:first-child {
     padding: 0 8px;
   }
   .news .news-cards .slick-list .slick-slide {
-    width: 280px !important;
     margin: 0 4px;
-  }
-  .news .news-cards .news-card {
-    width: 280px;
   }
   .news .news-cards .news-card .card-body .news-content {
     font-size: 14px;

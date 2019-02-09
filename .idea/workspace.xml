@@ -6,14 +6,6 @@
       <change afterPath="$PROJECT_DIR$/owle/img/vk.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle" beforeDir="false" afterPath="$PROJECT_DIR$/owle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/advantages/01-exchanges.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/advantages/02-bot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/advantages/03-sandbox.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/advantages/04-analytics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/advantages/05-support.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/exchanges.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/animation/scheme-of-work.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle-child/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/style.css.map" afterDir="false" />
@@ -170,29 +162,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owle-child/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="293" column="117" lean-forward="true" selection-start-line="293" selection-start-column="117" selection-end-line="293" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="1677" column="5" lean-forward="true" selection-start-line="1677" selection-start-column="5" selection-end-line="1677" selection-end-column="5" />
-              <folding>
-                <element signature="e#41922#49109#0" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="517" column="25" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle-child/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="1264" column="19" lean-forward="true" selection-start-line="1264" selection-start-column="19" selection-end-line="1264" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="259" column="21" lean-forward="true" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
+            <state relative-caret-position="619">
+              <caret line="267" column="35" selection-start-line="267" selection-start-column="35" selection-end-line="267" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -217,7 +215,6 @@
       <find>title</find>
       <find>footer</find>
       <find>.news-card</find>
-      <find>news-card</find>
       <find>perma</find>
       <find>&gt; a</find>
       <find>btn-all-news</find>
@@ -226,7 +223,6 @@
       <find>single_tag_title()</find>
       <find>faq</find>
       <find>tarrifs</find>
-      <find>767</find>
       <find>dropdown choices</find>
       <find>card-tariffs</find>
       <find>slide</find>
@@ -236,8 +232,10 @@
       <find>1439</find>
       <find>smaller</find>
       <find>.header-main-left</find>
-      <find>news</find>
       <find>tariffs</find>
+      <find>news-card</find>
+      <find>767</find>
+      <find>news</find>
     </findStrings>
     <replaceStrings>
       <replace>pll__(get_theme_mod(</replace>
@@ -285,8 +283,8 @@
         <option value="$PROJECT_DIR$/owle-child/footer.php" />
         <option value="$PROJECT_DIR$/owle-child/style/news.less" />
         <option value="$PROJECT_DIR$/owle-child/index.php" />
-        <option value="$PROJECT_DIR$/owle-child/js/main.js" />
         <option value="$PROJECT_DIR$/owle-child/style/style.less" />
+        <option value="$PROJECT_DIR$/owle-child/js/main.js" />
       </list>
     </option>
   </component>
@@ -305,7 +303,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,6 +331,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,18 +423,21 @@
       <workItem from="1549618411627" duration="11000" />
       <workItem from="1549619942073" duration="1404000" />
       <workItem from="1549625873019" duration="2114000" />
-      <workItem from="1549634739423" duration="9356000" />
+      <workItem from="1549634739423" duration="9634000" />
+      <workItem from="1549704423915" duration="602000" />
+      <workItem from="1549706298338" duration="1808000" />
+      <workItem from="1549720136771" duration="6962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261041000" />
+    <option name="totallyTimeSpent" value="270691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -674,6 +675,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/js/owl_steps_anim (3)/data.js" />
+    <entry file="file://$PROJECT_DIR$/owle-child/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="517" column="25" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -681,27 +689,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/index.php">
+    <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="293" column="117" lean-forward="true" selection-start-line="293" selection-start-column="117" selection-end-line="293" selection-end-column="117" />
+        <state relative-caret-position="152">
+          <caret line="1264" column="19" lean-forward="true" selection-start-line="1264" selection-start-column="19" selection-end-line="1264" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owle-child/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="259" column="21" lean-forward="true" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/owle-child/style/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="1677" column="5" lean-forward="true" selection-start-line="1677" selection-start-column="5" selection-end-line="1677" selection-end-column="5" />
-          <folding>
-            <element signature="e#41922#49109#0" />
-          </folding>
+        <state relative-caret-position="619">
+          <caret line="267" column="35" selection-start-line="267" selection-start-column="35" selection-end-line="267" selection-end-column="35" />
         </state>
       </provider>
     </entry>
