@@ -436,12 +436,12 @@ nav .divider {
   margin-bottom: 8px;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left {
-  height: 394px;
+  min-height: 394px;
   flex: 0 1 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 5%;
+  margin-right: 5%;
 }
 .advantages .adv-desc .adv-desc-inner .adv-desc-left > div:first-child {
   position: relative;
@@ -487,8 +487,7 @@ nav .divider {
 .advantages .adv-desc .adv-bar {
   display: none;
   align-items: center;
-  height: 184px;
-  position: relative;
+  height: 200px;
 }
 .advantages .adv-desc .adv-bar .advantage {
   width: 142px;
@@ -1441,10 +1440,7 @@ footer .copyrights div:first-child {
     margin: 840px auto 70px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
-    height: 370px;
-  }
-  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar {
-    height: auto;
+    min-height: 370px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage {
     width: 86px;
@@ -1609,7 +1605,7 @@ footer .copyrights div:first-child {
     margin: 840px auto 106px;
   }
   .advantages.alt {
-    margin: 1070px auto 80px;
+    margin: 1070px auto 0;
   }
   .advantages .head-line {
     margin: 0 auto 51px;
@@ -1623,17 +1619,14 @@ footer .copyrights div:first-child {
     margin-bottom: 10px;
   }
   .advantages .adv-desc .adv-desc-inner {
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 0;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
     width: 100%;
-    height: 315px;
-    min-height: 216px;
+    min-height: 380px;
     flex: 0 1 auto;
     margin-bottom: 32px;
-    padding-right: 0;
+    margin-right: 0;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage {
     width: 142px;
@@ -1868,23 +1861,28 @@ footer .copyrights div:first-child {
   .header-wrapper header .header-main {
     display: block;
     padding: 0 24px;
+    margin-top: 123px;
   }
   .header-wrapper header .header-main .header-main-left {
     flex: 0 1 auto;
   }
   .header-wrapper header .header-main .header-main-left h1 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
     margin-bottom: 16px;
   }
   .header-wrapper header .header-main .header-main-left p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px !important;
   }
   .header-wrapper header .header-main img {
-    width: 348px;
-    height: 322px;
-    left: 55%;
+    display: block;
+    width: 80%;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+    transform: none;
+    object-position: 15px 0;
     z-index: 2;
   }
   .burger .burger-menu {
@@ -1905,46 +1903,46 @@ footer .copyrights div:first-child {
     display: none;
   }
   .advantages {
-    padding: 95px 7px 0;
-    margin: 840px auto 64px;
+    padding: 32px 7px 0;
+    margin: 590px auto 64px;
   }
   .advantages.alt {
-    margin: 700px auto 106px;
+    margin: 590px auto 0;
   }
   .advantages .head-line {
     margin-bottom: 52px;
-  }
-  .advantages .adv-desc .adv-bar {
-    height: 75px;
-    margin-bottom: 28px;
-  }
-  .advantages .adv-desc .adv-bar .advantage {
-    width: 64px;
-    height: 64px;
-  }
-  .advantages .adv-desc .adv-bar .advantage.active > div {
-    width: 48px;
-    height: 48px;
-  }
-  .advantages .adv-desc .adv-bar .advantage > div {
-    width: 32px;
-    height: 32px;
-  }
-  .advantages .adv-desc .adv-bar .advantage > div > div {
-    width: 32px;
-    height: 32px;
-    background-size: 16px 16px;
   }
   .advantages .adv-desc .adv-desc-inner {
     min-height: auto;
     padding: 0 17px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
-    min-height: 310px;
+    min-height: 260px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left h3 {
     font-size: 22px;
     margin-bottom: 26px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar {
+    height: 75px;
+    margin-bottom: 28px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage {
+    width: 62px;
+    height: 62px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage.active > div {
+    width: 48px;
+    height: 48px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage > div {
+    width: 32px;
+    height: 32px;
+  }
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left .adv-bar .advantage > div > div {
+    width: 32px;
+    height: 32px;
+    background-size: 16px 16px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-right {
     width: 272px;
@@ -1952,7 +1950,6 @@ footer .copyrights div:first-child {
   }
   .exchanges {
     padding: 32px 0 77px;
-    margin-bottom: 96px;
   }
   .exchanges > img {
     display: none;
@@ -1962,6 +1959,9 @@ footer .copyrights div:first-child {
   }
   .exchanges #exchanges-anim {
     height: 205px;
+  }
+  .scheme-of-work {
+    padding-top: 32px;
   }
   .scheme-of-work .head-line {
     margin: 0 auto 52px;
@@ -1984,7 +1984,7 @@ footer .copyrights div:first-child {
     margin: 0 auto 64px;
   }
   .main-opportunities {
-    padding: 32px 0 80px;
+    padding: 32px 0 64px;
   }
   .main-opportunities .head-line {
     margin-bottom: 52px;
@@ -2035,14 +2035,16 @@ footer .copyrights div:first-child {
     width: 272px;
   }
   .tariffs {
-    padding-top: 50px;
-    margin-bottom: 140px;
+    margin-top: 0;
+    padding-top: 32px;
+    margin-bottom: 50px;
   }
   .tariffs .head-line {
     margin-bottom: 52px;
   }
   .tariffs .cards-tariffs {
     padding: 0 24px;
+    margin-bottom: 32px;
   }
   .tariffs .cards-tariffs .card-tariffs {
     margin-bottom: 24px;
@@ -2054,14 +2056,13 @@ footer .copyrights div:first-child {
     left: 25px;
   }
   .tariffs .methods {
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -24px;
   }
   .tariffs .methods > img {
     object-fit: contain;
-    margin-bottom: 24px;
-  }
-  .tariffs .methods > img:last-child {
-    margin-bottom: 0;
+    margin-top: 24px;
+    margin-right: 24px;
   }
   .faq {
     background: linear-gradient(96.49deg, #501FA5 -21.09%, #A419B2 120.66%);
@@ -2070,10 +2071,10 @@ footer .copyrights div:first-child {
     display: none;
   }
   .faq h2 {
-    padding-top: 33px;
+    padding-top: 32px;
   }
   .faq .head-line {
-    margin-bottom: 52px;
+    margin-bottom: 32px;
   }
   .faq .faq-inner {
     padding: 0 8px 52px;
@@ -2093,17 +2094,14 @@ footer .copyrights div:first-child {
   .faq .faq-inner .ask .ask-form .ask-from-body .ask-send button[type="submit"] {
     width: 100%;
   }
-  .news h2 {
-    padding-top: 88px;
+  .news {
+    padding-top: 32px;
   }
   .news .head-line {
     margin-bottom: 38px;
   }
   .news .news-cards {
     padding: 0;
-  }
-  .news .news-cards .slick-list {
-    padding: 0 8px;
   }
   .news .news-cards .slick-list .slick-slide {
     margin: 0 4px;
@@ -2136,7 +2134,7 @@ footer .copyrights div:first-child {
     padding: 0;
   }
   footer .social-links {
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
     padding: 0 20px;
     top: -77px;
@@ -2166,10 +2164,48 @@ footer .copyrights div:first-child {
     padding: 20px 21px 0;
   }
 }
+@media screen and (max-width: 600px) {
+  .header-wrapper header .header-main .header-main-left {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left {
+    min-height: 340px;
+  }
+}
+@media screen and (max-width: 525px) {
+  footer .main-content .menu .menu-head {
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 500px) {
+  .header-wrapper header .header-main img {
+    width: 100%;
+  }
   .tariffs .cards-tariffs .card-tariffs {
     flex: 0 1 100%;
     margin: 0 0 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-wrapper header {
+    height: 630px;
+  }
+  .header-wrapper header .header-main .header-main-left {
+    margin-bottom: 20px;
+  }
+  .advantages {
+    padding: 30px 7px 0;
+    margin: 500px auto 64px;
+  }
+  .advantages.alt {
+    margin: 500px auto 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left {
+    min-height: 430px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -190,7 +190,7 @@ jQuery(document).ready(function($) {
         var target_offset = 1680;
         if ($(window).width() < 1100) target_offset = 1870;
         if ($(window).width() < 1025) target_offset = 1840;
-        console.log(my_offset);
+        // console.log(my_offset);
         if (my_offset >= target_offset) {
             if (!$('.opp-imgs').hasClass('smaller'))
                 $('.opp-imgs').addClass('smaller');
@@ -262,12 +262,33 @@ jQuery(document).ready(function($) {
                 breakpoint: 1025,
                 settings: {
                     centerMode: true,
-                    // centerPadding: '293px',
                     infinite: false,
-                    // variableWidth: true,
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    initialSlide: 1,
+                    centerPadding: '5%',
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 646,
+                settings: {
+                    centerMode: true,
+                    infinite: false,
+                    slidesToShow: 1,
+                    centerPadding: '10%',
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 350,
+                settings: {
+                    centerMode: true,
+                    infinite: false,
+                    slidesToShow: 1,
+                    centerPadding: '4%',
+                    slidesToScroll: 1,
+                    initialSlide: 1
                 }
             }
         ]
