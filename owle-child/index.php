@@ -293,7 +293,7 @@
             <div class="opp-img" data-aos="fade-down" data-aos-offset="400" data-aos-anchor-placement="top-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity2.png" alt="Opportunity 2">
             </div>
-            <div class="opp-img" data-aos="fade-down" data-aos-offset="700" data-aos-anchor-placement="top-center">
+            <div class="opp-img" data-aos="fade-down" data-aos-offset="800" data-aos-anchor-placement="top-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/opportunities/opportunity3.png" alt="Opportunity 3">
             </div>
         </div>

@@ -187,17 +187,16 @@ jQuery(document).ready(function($) {
 
         //блок возможностей, анимация в конце блока
         var my_offset = $('.fir').offset().top - $('.opp-imgs').offset().top;
-        var target_offset = 1680;
+        var target_offset = 1720;
         if ($(window).width() < 1100) target_offset = 1870;
         if ($(window).width() < 1025) target_offset = 1840;
-        // console.log(my_offset);
+
         if (my_offset >= target_offset) {
             if (!$('.opp-imgs').hasClass('smaller'))
                 $('.opp-imgs').addClass('smaller');
         } else {
             $('.opp-imgs').removeClass('smaller');
         }
-
     });
 
     //блок тарифов, анимация ховера
@@ -237,6 +236,7 @@ jQuery(document).ready(function($) {
                     }
                 ]
             });
+            AOS.refresh();
         }
     });
 
@@ -255,8 +255,8 @@ jQuery(document).ready(function($) {
         respondTo: 'min',
         slidesToShow: 3,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 4000,
         responsive: [
             {
                 breakpoint: 1025,

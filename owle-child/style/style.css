@@ -427,7 +427,7 @@ nav .divider {
   overflow: hidden;
   box-sizing: border-box;
   max-width: 1440px;
-  margin: 840px auto 124px;
+  margin: 735px auto 124px;
   padding: 24px 64px 0;
 }
 .advantages .adv-desc .adv-desc-inner {
@@ -717,7 +717,7 @@ nav .divider {
 }
 .main-opportunities .main-content .opp-imgs {
   margin-top: -200px;
-  height: 2200px;
+  height: 2240px;
   margin-left: 40px;
   flex: 0 1 50%;
   box-sizing: border-box;
@@ -802,7 +802,7 @@ nav .divider {
   z-index: 100;
 }
 .tariffs {
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 52px;
   margin-bottom: 154px;
   position: relative;
@@ -971,6 +971,8 @@ nav .divider {
 }
 .tariffs .methods > img {
   margin-right: 45px;
+  width: 200px;
+  object-fit: none;
 }
 .tariffs .methods > img:last-child {
   margin-right: 0;
@@ -1264,11 +1266,10 @@ nav .divider {
   display: flex;
   justify-content: space-between;
 }
-.partners .partners-logos .partners-logo:first-child {
-  margin-right: 70px;
-}
 .partners .partners-logos .partners-logo > img {
   height: 60px;
+  width: 250px;
+  object-fit: contain;
 }
 footer {
   position: relative;
@@ -1317,6 +1318,9 @@ footer .main-content {
   max-width: 1312px;
   margin: 0 auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+footer .main-content > div {
+  margin-right: 20px;
 }
 footer .main-content .company-info a {
   display: block;
@@ -1437,7 +1441,7 @@ footer .copyrights div:first-child {
   }
   .advantages {
     padding: 24px 48px 0;
-    margin: 840px auto 70px;
+    margin: 700px auto 70px;
   }
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
     min-height: 370px;
@@ -1533,7 +1537,7 @@ footer .copyrights div:first-child {
     top: 270px;
   }
   .faq-inner {
-    padding: 0 48px 251px;
+    padding: 0 48px 272px;
   }
   .ask-info:before {
     top: 18px;
@@ -1559,10 +1563,12 @@ footer .copyrights div:first-child {
   }
   footer .main-content {
     flex-wrap: wrap;
-    padding: 90px 0 29px;
   }
+}
+@media screen and (max-width: 1322px) {
   footer .main-content .company-info {
-    margin-bottom: 32px;
+    margin-top: 60px;
+    order: 3;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -1968,7 +1974,7 @@ footer .copyrights div:first-child {
   }
   .scheme-of-work .main-content {
     padding: 0 24px;
-    margin: 0 auto 48px;
+    margin: 0 auto;
   }
   .scheme-of-work .main-content .scheme-steps li {
     font-size: 23px;
@@ -2055,14 +2061,18 @@ footer .copyrights div:first-child {
   .tariffs .cards-tariffs .card-tariffs .card-body .opps .opp:before {
     left: 25px;
   }
+  .tariffs .cards-tariffs + h2 {
+    margin-bottom: 24px;
+  }
   .tariffs .methods {
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: -24px;
   }
   .tariffs .methods > img {
-    object-fit: contain;
+    width: 200px;
+    object-fit: none;
     margin-top: 24px;
-    margin-right: 24px;
   }
   .faq {
     background: linear-gradient(96.49deg, #501FA5 -21.09%, #A419B2 120.66%);
@@ -2123,18 +2133,21 @@ footer .copyrights div:first-child {
     margin-bottom: 24px;
   }
   .partners .partners-logos {
-    flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .partners .partners-logos .partners-logo {
+    margin-top: 28px;
   }
   .partners .partners-logos .partners-logo:first-child {
     margin-right: 0;
-    margin-bottom: 28px;
   }
   footer {
     padding: 0;
   }
   footer .social-links {
-    width: 100%;
+    width: 250px;
     box-sizing: border-box;
     padding: 0 20px;
     top: -77px;
@@ -2142,14 +2155,18 @@ footer .copyrights div:first-child {
   }
   footer .main-content {
     margin: 0 24px;
-    padding: 53px 0 32px;
+    padding: 0 0 32px;
+  }
+  footer .main-content > div {
+    margin-top: 60px;
+    margin-right: 0;
   }
   footer .main-content .company-info > div,
   footer .main-content .menu a {
     font-size: 14px;
   }
   footer .main-content .menu {
-    margin-bottom: 32px;
+    margin-right: 40px;
   }
   footer .main-content .subscribe .menu-head {
     margin-bottom: 36px;
@@ -2174,7 +2191,7 @@ footer .copyrights div:first-child {
     min-height: 340px;
   }
 }
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 565px) {
   footer .main-content .menu .menu-head {
     margin-bottom: 20px;
   }

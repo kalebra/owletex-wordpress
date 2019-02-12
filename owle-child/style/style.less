@@ -451,7 +451,7 @@ nav {
   overflow: hidden;
   box-sizing: border-box;
   max-width: 1440px;
-  margin: 840px auto 124px;
+  margin: 735px auto 124px;
   padding: 24px 64px 0;
   .adv-desc {
     .adv-desc-inner {
@@ -754,7 +754,7 @@ nav {
     }
     .opp-imgs {
       margin-top: -200px;
-      height: 2200px;
+      height: 2240px;
       margin-left: 40px;
       //width: 680px;
       flex: 0 1 50%;
@@ -845,7 +845,7 @@ nav {
 
 // Tariffs
 .tariffs {
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 52px;
   margin-bottom: 154px;
   position: relative;
@@ -1025,6 +1025,8 @@ nav {
     box-sizing: border-box;
     > img {
       margin-right: 45px;
+      width: 200px;
+      object-fit: none;
       &:last-child {
         margin-right: 0;
       }
@@ -1342,10 +1344,12 @@ nav {
     justify-content: space-between;
     .partners-logo {
       &:first-child {
-        margin-right: 70px;
+        //margin-right: 70px;
       }
       > img {
         height: 60px;
+        width: 250px;
+        object-fit: contain;
       }
     }
   }
@@ -1398,6 +1402,9 @@ footer {
     max-width: 1312px;
     margin: 0 auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    > div {
+      margin-right: 20px;
+    }
     .company-info {
       a {
         display: block;
@@ -1534,7 +1541,7 @@ footer {
   }
   .advantages {
     padding: 24px 48px 0;
-    margin: 840px auto 70px;
+    margin: 700px auto 70px;
     .adv-desc {
       .adv-desc-inner {
         .adv-desc-left {
@@ -1654,7 +1661,7 @@ footer {
     top: 270px;
   }
   .faq-inner {
-    padding: 0 48px 251px;
+    padding: 0 48px 272px;
   }
   .ask-info {
     &:before {
@@ -1688,11 +1695,18 @@ footer {
     padding: 0 48px;
     .main-content {
       flex-wrap: wrap;
-      padding: 90px 0 29px;
+      //padding: 90px 0 29px;
       .company-info {
-        margin-bottom: 32px;
+        //margin-bottom: 32px;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1322px) {
+  footer .main-content .company-info {
+    margin-top: 60px;
+    order: 3;
   }
 }
 
@@ -2148,7 +2162,7 @@ footer {
     }
     .main-content {
       padding: 0 24px;
-      margin: 0 auto 48px;
+      margin: 0 auto;
       .scheme-steps {
         li {
           font-size: 23px;
@@ -2247,13 +2261,18 @@ footer {
         }
       }
     }
+    .cards-tariffs + h2 {
+      margin-bottom: 24px;
+    }
     .methods {
       flex-wrap: wrap;
+      justify-content: center;
       margin-top: -24px;
       > img {
-        object-fit: contain;
+        width: 200px;
+        object-fit: none;
         margin-top: 24px;
-        margin-right: 24px;
+        //margin-right: 24px;
       }
     }
   }
@@ -2326,18 +2345,22 @@ footer {
       margin-bottom: 24px;
     }
     .partners-logos {
-      flex-direction: column;
+      //flex-direction: column;
       align-items: center;
-      .partners-logo:first-child {
-        margin-right: 0;
-        margin-bottom: 28px;
+      flex-wrap: wrap;
+      justify-content: center;
+      .partners-logo {
+        margin-top: 28px;
+        &:first-child {
+          margin-right: 0;
+        }
       }
     }
   }
   footer {
     padding: 0;
     .social-links {
-      width: 100%;
+      width: 250px;
       box-sizing: border-box;
       padding: 0 20px;
       top: -77px;
@@ -2345,12 +2368,17 @@ footer {
     }
     .main-content {
       margin: 0 24px;
-      padding: 53px 0 32px;
+      padding: 0 0 32px;
+      > div {
+        margin-top: 60px;
+        margin-right: 0;
+      }
       .company-info > div, .menu a {
         font-size: 14px;
       }
       .menu {
-        margin-bottom: 32px;
+        //margin-bottom: 32px;
+        margin-right: 40px;
       }
       .subscribe {
         .menu-head {
@@ -2388,7 +2416,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 565px) {
   footer .main-content .menu .menu-head {
     margin-bottom: 20px;
   }
