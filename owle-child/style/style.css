@@ -2220,7 +2220,7 @@ footer .copyrights div:first-child {
     margin: 500px auto 0px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   .advantages .adv-desc .adv-desc-inner .adv-desc-left {
     min-height: 430px;
   }

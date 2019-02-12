@@ -4,13 +4,7 @@
     <list default="true" id="8318e0e7-e655-4a0f-ae02-7b84257ad7a1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/owle/img/vk-light.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/owle/img/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle" beforeDir="false" afterPath="$PROJECT_DIR$/owle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owle-child/style/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/owle-child/style/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/owle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Black.eot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/owle/fonts/TTCommons/TTCommons-Black.ttf" beforeDir="false" />
@@ -435,18 +429,17 @@
       <workItem from="1549877707640" duration="5416000" />
       <workItem from="1549893599706" duration="9239000" />
       <workItem from="1549963769213" duration="7298000" />
-      <workItem from="1549979878177" duration="5650000" />
+      <workItem from="1549979878177" duration="5908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298913000" />
+    <option name="totallyTimeSpent" value="299171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
