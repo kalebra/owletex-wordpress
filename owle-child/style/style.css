@@ -1322,6 +1322,9 @@ footer .main-content {
 footer .main-content > div {
   margin-right: 20px;
 }
+footer .main-content > div:last-child {
+  margin-right: 0;
+}
 footer .main-content .company-info a {
   display: block;
   background: url(../img/logo.svg) no-repeat;
@@ -1342,7 +1345,7 @@ footer .main-content .menu-head {
   margin-bottom: 36px;
 }
 footer .main-content .menu .menu-head {
-  margin-bottom: 51px;
+  margin-bottom: 45px;
 }
 footer .main-content .menu a {
   display: block;
@@ -1565,10 +1568,15 @@ footer .copyrights div:first-child {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 1322px) {
+@media screen and (max-width: 1302px) {
   footer .main-content .company-info {
     margin-top: 60px;
     order: 3;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left {
+    min-height: 400px;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -2169,7 +2177,7 @@ footer .copyrights div:first-child {
     margin-right: 40px;
   }
   footer .main-content .subscribe .menu-head {
-    margin-bottom: 36px;
+    margin-bottom: 20px;
   }
   footer .main-content .subscribe > div:last-child > div:first-child {
     font-size: 14px;

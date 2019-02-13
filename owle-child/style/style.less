@@ -1404,6 +1404,9 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     > div {
       margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
     }
     .company-info {
       a {
@@ -1428,7 +1431,7 @@ footer {
     }
     .menu {
       .menu-head {
-        margin-bottom: 51px;
+        margin-bottom: 45px;
       }
       a {
         display: block;
@@ -1703,10 +1706,16 @@ footer {
   }
 }
 
-@media screen and (max-width: 1322px) {
+@media screen and (max-width: 1302px) {
   footer .main-content .company-info {
     margin-top: 60px;
     order: 3;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .advantages .adv-desc .adv-desc-inner .adv-desc-left {
+    min-height: 400px;
   }
 }
 
@@ -2382,7 +2391,7 @@ footer {
       }
       .subscribe {
         .menu-head {
-          margin-bottom: 36px;
+          margin-bottom: 20px;
         }
         > div:last-child {
           > div {
